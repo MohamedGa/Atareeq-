@@ -1,6 +1,0 @@
-framework module Pods_AtarequeTests {
-  umbrella header "Pods-AtarequeTests-umbrella.h"
-
-  export *
-  module * { export * }
-}

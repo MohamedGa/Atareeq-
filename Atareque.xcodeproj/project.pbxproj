@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00D28464DCB5202B6CC761FF /* Pods_Atareque.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 722F058D5D6B7667086A7F3E /* Pods_Atareque.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		2592E1717A102A0504F2F93F /* Pods_Atareque_AtarequeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BE4088D83741790843EF160 /* Pods_Atareque_AtarequeTests.framework */; };
 		2AF25AF946203DF27D116BCB /* Pods_AtarequeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 341E288278BB84F8ED46ECE3 /* Pods_AtarequeUITests.framework */; };
-		436E332D3811D7FEF905B994 /* Pods_Atareque.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C910692C4EFF84F4123586 /* Pods_Atareque.framework */; };
+		960C628A20DFE64D0031D500 /* ParentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960C628920DFE64D0031D500 /* ParentViewController.swift */; };
+		96503AC420DFEFDC00620E63 /* XLPagerTabStrip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96503AC320DFEFDC00620E63 /* XLPagerTabStrip.framework */; };
 		966D77BB20DA9ED4009CD0B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966D77AD20DA9ED3009CD0B5 /* AppDelegate.swift */; };
 		966D77BC20DA9ED4009CD0B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 966D77AE20DA9ED3009CD0B5 /* Assets.xcassets */; };
 		966D77BD20DA9ED4009CD0B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 966D77AF20DA9ED3009CD0B5 /* LaunchScreen.storyboard */; };
@@ -22,6 +25,7 @@
 		B222F1FD1DAA30330089573D /* AtarequeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B222F1FC1DAA30330089573D /* AtarequeTests.swift */; };
 		B222F2081DAA30330089573D /* AtarequeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B222F2071DAA30330089573D /* AtarequeUITests.swift */; };
 		D1E3E57FEB632E3EC735ED56 /* Pods_AtarequeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73386C4AE6A2283CED3FE770 /* Pods_AtarequeTests.framework */; };
+		FFAE642749EF90CB130FF7A9 /* Pods_Atareque_AtarequeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FF4783019D67F7FCD3EC4E6 /* Pods_Atareque_AtarequeUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,10 +47,15 @@
 
 /* Begin PBXFileReference section */
 		1A65674F3DE9609DB7896040 /* Pods-Atareque.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Atareque.release.xcconfig"; path = "Pods/Target Support Files/Pods-Atareque/Pods-Atareque.release.xcconfig"; sourceTree = "<group>"; };
+		1FF4783019D67F7FCD3EC4E6 /* Pods_Atareque_AtarequeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Atareque_AtarequeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BE4088D83741790843EF160 /* Pods_Atareque_AtarequeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Atareque_AtarequeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		341E288278BB84F8ED46ECE3 /* Pods_AtarequeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AtarequeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5125DD2A6BDD674DE5B0E4BC /* Pods-Atareque.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Atareque.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Atareque/Pods-Atareque.debug.xcconfig"; sourceTree = "<group>"; };
+		722F058D5D6B7667086A7F3E /* Pods_Atareque.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Atareque.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		73386C4AE6A2283CED3FE770 /* Pods_AtarequeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AtarequeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		78C910692C4EFF84F4123586 /* Pods_Atareque.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Atareque.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		77620596CBFFAEEDCA52C8BF /* Pods-Atareque-AtarequeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Atareque-AtarequeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Atareque-AtarequeUITests/Pods-Atareque-AtarequeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		960C628920DFE64D0031D500 /* ParentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentViewController.swift; sourceTree = "<group>"; };
+		96503AC320DFEFDC00620E63 /* XLPagerTabStrip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = XLPagerTabStrip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		966D77AD20DA9ED3009CD0B5 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		966D77AE20DA9ED3009CD0B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		966D77B020DA9ED3009CD0B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -59,6 +68,7 @@
 		966D77B820DA9ED3009CD0B5 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		966D77B920DA9ED3009CD0B5 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		966D77BA20DA9ED3009CD0B5 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9E612CFE4582A4FFCF36B39C /* Pods-Atareque-AtarequeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Atareque-AtarequeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Atareque-AtarequeUITests/Pods-Atareque-AtarequeUITests.release.xcconfig"; sourceTree = "<group>"; };
 		B04A71192532C77317D7D9A4 /* Pods-AtarequeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AtarequeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AtarequeUITests/Pods-AtarequeUITests.release.xcconfig"; sourceTree = "<group>"; };
 		B222F1E41DAA30330089573D /* Atareque.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Atareque.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B222F1F81DAA30330089573D /* AtarequeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AtarequeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -69,7 +79,9 @@
 		B222F2091DAA30330089573D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B228EA52DAE1F8690B09FAD5 /* Pods-AtarequeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AtarequeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AtarequeUITests/Pods-AtarequeUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		BC406DD3471453E81DB9D0B8 /* Pods-AtarequeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AtarequeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AtarequeTests/Pods-AtarequeTests.release.xcconfig"; sourceTree = "<group>"; };
+		C636246C196A81A2B02DC9A6 /* Pods-Atareque-AtarequeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Atareque-AtarequeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Atareque-AtarequeTests/Pods-Atareque-AtarequeTests.release.xcconfig"; sourceTree = "<group>"; };
 		D2283A26E39C2DF3910C5084 /* Pods-AtarequeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AtarequeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AtarequeTests/Pods-AtarequeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F617C0D3E0A870DACCEB4184 /* Pods-Atareque-AtarequeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Atareque-AtarequeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Atareque-AtarequeTests/Pods-Atareque-AtarequeTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +89,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				436E332D3811D7FEF905B994 /* Pods_Atareque.framework in Frameworks */,
+				96503AC420DFEFDC00620E63 /* XLPagerTabStrip.framework in Frameworks */,
+				00D28464DCB5202B6CC761FF /* Pods_Atareque.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +99,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D1E3E57FEB632E3EC735ED56 /* Pods_AtarequeTests.framework in Frameworks */,
+				2592E1717A102A0504F2F93F /* Pods_Atareque_AtarequeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,6 +108,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2AF25AF946203DF27D116BCB /* Pods_AtarequeUITests.framework in Frameworks */,
+				FFAE642749EF90CB130FF7A9 /* Pods_Atareque_AtarequeUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -109,6 +124,10 @@
 				BC406DD3471453E81DB9D0B8 /* Pods-AtarequeTests.release.xcconfig */,
 				B228EA52DAE1F8690B09FAD5 /* Pods-AtarequeUITests.debug.xcconfig */,
 				B04A71192532C77317D7D9A4 /* Pods-AtarequeUITests.release.xcconfig */,
+				F617C0D3E0A870DACCEB4184 /* Pods-Atareque-AtarequeTests.debug.xcconfig */,
+				C636246C196A81A2B02DC9A6 /* Pods-Atareque-AtarequeTests.release.xcconfig */,
+				77620596CBFFAEEDCA52C8BF /* Pods-Atareque-AtarequeUITests.debug.xcconfig */,
+				9E612CFE4582A4FFCF36B39C /* Pods-Atareque-AtarequeUITests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -116,9 +135,12 @@
 		9197B5A7A786332049EA56AF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				78C910692C4EFF84F4123586 /* Pods_Atareque.framework */,
+				96503AC320DFEFDC00620E63 /* XLPagerTabStrip.framework */,
 				73386C4AE6A2283CED3FE770 /* Pods_AtarequeTests.framework */,
 				341E288278BB84F8ED46ECE3 /* Pods_AtarequeUITests.framework */,
+				722F058D5D6B7667086A7F3E /* Pods_Atareque.framework */,
+				2BE4088D83741790843EF160 /* Pods_Atareque_AtarequeTests.framework */,
+				1FF4783019D67F7FCD3EC4E6 /* Pods_Atareque_AtarequeUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -145,6 +167,7 @@
 				966D77B720DA9ED3009CD0B5 /* GalleryViewController.swift */,
 				966D77BA20DA9ED3009CD0B5 /* ViewController.swift */,
 				966D77B120DA9ED3009CD0B5 /* Main.storyboard */,
+				960C628920DFE64D0031D500 /* ParentViewController.swift */,
 			);
 			path = controllers;
 			sourceTree = "<group>";
@@ -201,6 +224,7 @@
 				B222F1E01DAA30320089573D /* Sources */,
 				B222F1E11DAA30320089573D /* Frameworks */,
 				B222F1E21DAA30320089573D /* Resources */,
+				C2F274FC4072D65F0A435A69 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -219,7 +243,7 @@
 				B222F1F41DAA30330089573D /* Sources */,
 				B222F1F51DAA30330089573D /* Frameworks */,
 				B222F1F61DAA30330089573D /* Resources */,
-				D664DA5740E8701995BF4DC0 /* [CP] Embed Pods Frameworks */,
+				4C712A0DFA057F4D8BB73213 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -239,6 +263,7 @@
 				B222F1FF1DAA30330089573D /* Sources */,
 				B222F2001DAA30330089573D /* Frameworks */,
 				B222F2011DAA30330089573D /* Resources */,
+				C2E4E37012C18062737799EE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -356,11 +381,29 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-AtarequeTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Atareque-AtarequeTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C712A0DFA057F4D8BB73213 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Atareque-AtarequeTests/Pods-Atareque-AtarequeTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/XLPagerTabStrip/XLPagerTabStrip.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XLPagerTabStrip.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Atareque-AtarequeTests/Pods-Atareque-AtarequeTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		6B5C92649B7A0CFCCE687289 /* [CP] Check Pods Manifest.lock */ = {
@@ -374,20 +417,20 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-AtarequeUITests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Atareque-AtarequeUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D664DA5740E8701995BF4DC0 /* [CP] Embed Pods Frameworks */ = {
+		C2E4E37012C18062737799EE /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-AtarequeTests/Pods-AtarequeTests-frameworks.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-Atareque-AtarequeUITests/Pods-Atareque-AtarequeUITests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/XLPagerTabStrip/XLPagerTabStrip.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -396,7 +439,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AtarequeTests/Pods-AtarequeTests-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Atareque-AtarequeUITests/Pods-Atareque-AtarequeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2F274FC4072D65F0A435A69 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Atareque/Pods-Atareque-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/XLPagerTabStrip/XLPagerTabStrip.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XLPagerTabStrip.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Atareque/Pods-Atareque-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -409,6 +470,7 @@
 				966D77C420DA9ED4009CD0B5 /* ViewController.swift in Sources */,
 				966D77C120DA9ED4009CD0B5 /* menuViewController.swift in Sources */,
 				966D77C020DA9ED4009CD0B5 /* MenuCell.swift in Sources */,
+				960C628A20DFE64D0031D500 /* ParentViewController.swift in Sources */,
 				966D77C320DA9ED4009CD0B5 /* SWRevealViewController.m in Sources */,
 				966D77C220DA9ED4009CD0B5 /* GalleryViewController.swift in Sources */,
 				966D77BB20DA9ED4009CD0B5 /* AppDelegate.swift in Sources */,
@@ -594,7 +656,7 @@
 		};
 		B222F2101DAA30330089573D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D2283A26E39C2DF3910C5084 /* Pods-AtarequeTests.debug.xcconfig */;
+			baseConfigurationReference = F617C0D3E0A870DACCEB4184 /* Pods-Atareque-AtarequeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -609,7 +671,7 @@
 		};
 		B222F2111DAA30330089573D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BC406DD3471453E81DB9D0B8 /* Pods-AtarequeTests.release.xcconfig */;
+			baseConfigurationReference = C636246C196A81A2B02DC9A6 /* Pods-Atareque-AtarequeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -624,7 +686,7 @@
 		};
 		B222F2131DAA30330089573D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B228EA52DAE1F8690B09FAD5 /* Pods-AtarequeUITests.debug.xcconfig */;
+			baseConfigurationReference = 77620596CBFFAEEDCA52C8BF /* Pods-Atareque-AtarequeUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = memuDemoUITests/Info.plist;
@@ -638,7 +700,7 @@
 		};
 		B222F2141DAA30330089573D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B04A71192532C77317D7D9A4 /* Pods-AtarequeUITests.release.xcconfig */;
+			baseConfigurationReference = 9E612CFE4582A4FFCF36B39C /* Pods-Atareque-AtarequeUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = memuDemoUITests/Info.plist;

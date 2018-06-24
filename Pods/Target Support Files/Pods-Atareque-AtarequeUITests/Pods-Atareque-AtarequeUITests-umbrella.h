@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_AtarequeTestsVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_AtarequeTestsVersionString[];
+FOUNDATION_EXPORT double Pods_Atareque_AtarequeUITestsVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_Atareque_AtarequeUITestsVersionString[];
 

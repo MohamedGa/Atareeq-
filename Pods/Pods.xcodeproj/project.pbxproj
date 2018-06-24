@@ -7,169 +7,169 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1577FA86B341B4212FAC242005C6BC0F /* Pods-Atareque-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF38BA13B6BF93DE8E9C81831AADD21 /* Pods-Atareque-dummy.m */; };
-		17E6372FB0B97EF077E119BA5CA1DD73 /* SegmentedPagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2301D861BD905564D1012FE57C3E3EB5 /* SegmentedPagerTabStripViewController.swift */; };
-		18EB45448D456615040E839BFE2BCF41 /* BarPagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BAFD08E429420867ECCE4F9AA049280 /* BarPagerTabStripViewController.swift */; };
-		2D08EE11FA44475A4EBA503A7BDB7761 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
-		3D53276F8039A179CE7E7A181727F69C /* SwipeDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684D2E2FB5303F753253069714A5917E /* SwipeDirection.swift */; };
-		3E9CED4BC8FFB8F2F58BABFAF2B76E32 /* Pods-AtarequeUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 49926AA0A3F2CC95F1B9FC9109EEDAB7 /* Pods-AtarequeUITests-dummy.m */; };
-		44916B37255D85F1D7465AD9B7F29D00 /* BaseButtonBarPagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BEC7C99717FA6ECEE914F951BDE53F /* BaseButtonBarPagerTabStripViewController.swift */; };
-		457559117C9117FA1F97B46E2DF4D41C /* ButtonBarViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A921414DBE7B40C87D931CD436D5DB /* ButtonBarViewCell.swift */; };
-		4ADB7A2D51AE7E5C4404FD91FB0C337D /* ButtonBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A40B367F2560B8B7294DD87BF9B0AFF /* ButtonBarView.swift */; };
-		50AF02CD0403B98C60BE02F7A678EBBA /* TwitterPagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8274464CB4D29D6EECC27BAF1C67BAEF /* TwitterPagerTabStripViewController.swift */; };
-		55E7FD65336440FDDEE16E080D0AB57A /* XLPagerTabStrip-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9889A0CEFA474D09A45F3981ED4B4D4E /* XLPagerTabStrip-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5B7914132F6D40125EF0DB5B8E6DFCB4 /* PagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0922A4C233956A14DF7FCDF2F584FACE /* PagerTabStripViewController.swift */; };
-		6D7155D00437BE4453DE604C3FB66CCC /* ButtonCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = 3380FD4EE94423360391219E93D91D7E /* ButtonCell.xib */; };
-		6FF171D64767F6371CE4DB7393E99E39 /* Pods-AtarequeUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DABBC181B224F14F2CE805EA15F02A1C /* Pods-AtarequeUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		76EC73BB1947AB724BEFB6389998BDE9 /* ButtonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3380FD4EE94423360391219E93D91D7E /* ButtonCell.xib */; };
-		827BD16BB1B287649E4D68737DBAFBD2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */; };
-		888756F883282730AFB6A1D136FBF8C9 /* XLPagerTabStrip-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 42691FBC0EE54044DFC4471781B58300 /* XLPagerTabStrip-dummy.m */; };
-		8EBDEBEFD65E1F2698BFA1BB44D46E46 /* Pods-Atareque-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DF59BD1E70FE20D8264B0FD1EE4DF646 /* Pods-Atareque-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B8C3B05D9588A9D291E1D49056725C4E /* FXPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = D09056B385C6845238E924C970E79039 /* FXPageControl.m */; };
-		BBCA54E23A53B144285ADE4294ED3E16 /* PagerTabStripError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7161ABE8133F59A707855E9EE8310869 /* PagerTabStripError.swift */; };
-		C098D486DCB6AA5E3ACCCF82DAA3804A /* XLPagerTabStrip.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E1181E3CA665E6940992F50987F9B9D2 /* XLPagerTabStrip.bundle */; };
-		CA09DBB501AFBA773D657E1606C78A61 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
-		D7F68BE15873E2BE47DA471B71EF550E /* Pods-AtarequeTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 65E33B364D8D03FF22CECA36C1B3EC39 /* Pods-AtarequeTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DE38DB12ACAFFABF7CB9B722FAAB66CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
-		DFBD3D93BC63790F2B6C090163685FA1 /* FXPageControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A6A65D65B931B96BD9520A7C113DCE0 /* FXPageControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E6E36A86E057A30060CDF720286BC396 /* PagerTabStripBehaviour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C21FB8930CECAB6B8676196CB548F80 /* PagerTabStripBehaviour.swift */; };
-		E8459D80F3900FFF9994A7693E46FA57 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
-		ED74A18381C3B4A9183998EE88958320 /* BarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3167DA9D0F42DA1E13D2823DB4172FA5 /* BarView.swift */; };
-		F566331E9522E279F5FF271D7E5399F5 /* ButtonBarPagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D78BC42755EDEA41D0EFE7EAD90B61 /* ButtonBarPagerTabStripViewController.swift */; };
-		F7AC1E6987E0C2C4ECF9728BFE32C4CC /* Pods-AtarequeTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 919A2B06883DA210F13BDAEB8BEA19F7 /* Pods-AtarequeTests-dummy.m */; };
-		F9CCA7921EF9B2E38CC8D39CAC1DBF02 /* IndicatorInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFEB9986798D80D513012E735025E54 /* IndicatorInfo.swift */; };
+		0900B0012B8955E2C7BF7489E3F8A61E /* BaseButtonBarPagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BEC7C99717FA6ECEE914F951BDE53F /* BaseButtonBarPagerTabStripViewController.swift */; };
+		21536FF097C3CC6FE40B338A17E00F42 /* Pods-Atareque-AtarequeUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F03FF39FA906CD71A9FF87E3B5CEE068 /* Pods-Atareque-AtarequeUITests-dummy.m */; };
+		269FBDB2995890574A5C948F8EBA1A36 /* Pods-Atareque-AtarequeUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3220E7C23A9BE33B72AA59F2578B5282 /* Pods-Atareque-AtarequeUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C8760E582109D2EA409D9531C5202D3 /* Pods-Atareque-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 92E232DB573277D65D82661D0ED4BB24 /* Pods-Atareque-dummy.m */; };
+		2D3A04160D8F230E0584FB7BA8A64695 /* BarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3167DA9D0F42DA1E13D2823DB4172FA5 /* BarView.swift */; };
+		3AA2273FEE174D8CCDF591975563D402 /* IndicatorInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFEB9986798D80D513012E735025E54 /* IndicatorInfo.swift */; };
+		45E4E82A1F036B04DB42BF6A4886C4C0 /* ButtonCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = 3380FD4EE94423360391219E93D91D7E /* ButtonCell.xib */; };
+		584BD5BCD617D792AF51190770CBDF32 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
+		5CAE169E7128293CB602A76125031443 /* PagerTabStripError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7161ABE8133F59A707855E9EE8310869 /* PagerTabStripError.swift */; };
+		6E64F92423CF6A41B49DD13E227E3C16 /* Pods-Atareque-AtarequeTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D1D94CBF29C846DEBA095DBD38FF4DF /* Pods-Atareque-AtarequeTests-dummy.m */; };
+		70B10C459CBA46C138D6CE9A884A9949 /* ButtonBarViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A921414DBE7B40C87D931CD436D5DB /* ButtonBarViewCell.swift */; };
+		78D8D86D0D4FBF8B0192A9D35B4DBA8F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */; };
+		83F861A3B3E74BE92E26B82606B0C0A8 /* ButtonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3380FD4EE94423360391219E93D91D7E /* ButtonCell.xib */; };
+		93959A98C3D129DE18041FC8EF12F3C0 /* XLPagerTabStrip-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 42691FBC0EE54044DFC4471781B58300 /* XLPagerTabStrip-dummy.m */; };
+		A893FBA25C4160F2DA2A827B0F15F760 /* FXPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = D09056B385C6845238E924C970E79039 /* FXPageControl.m */; };
+		ACCF38F43FF03A7F40E9FD77550BD835 /* FXPageControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A6A65D65B931B96BD9520A7C113DCE0 /* FXPageControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE569F4EA0B0BB5039D8DFE5DBFCC4CF /* ButtonBarPagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D78BC42755EDEA41D0EFE7EAD90B61 /* ButtonBarPagerTabStripViewController.swift */; };
+		B226BB28B83437A729569BE2D58BE370 /* PagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0922A4C233956A14DF7FCDF2F584FACE /* PagerTabStripViewController.swift */; };
+		B4A9680A5976D48A1265EEEB46ACA908 /* SegmentedPagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2301D861BD905564D1012FE57C3E3EB5 /* SegmentedPagerTabStripViewController.swift */; };
+		B5965013D6002F8485ADDCAEEC5FB5DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
+		B99B1CBD21B674CE31136BDE3381381C /* ButtonBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A40B367F2560B8B7294DD87BF9B0AFF /* ButtonBarView.swift */; };
+		B9C9DA37BEA12FC039C346BADDB931D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
+		CB2A7E69CF580A05951B9F02CAC2C4EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
+		CDF71D6932368B8B26FD60AFC956988F /* BarPagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BAFD08E429420867ECCE4F9AA049280 /* BarPagerTabStripViewController.swift */; };
+		CE8EC1B6AEFB9A6EA572A053950FB2DA /* XLPagerTabStrip.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A59667AD47080D7919A09397B0AC685E /* XLPagerTabStrip.bundle */; };
+		D56204274823F5C66397218E1EC6C0EF /* Pods-Atareque-AtarequeTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F5535D29E8F9DCCA69F79026E3A107C /* Pods-Atareque-AtarequeTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D57086170171AB1E29066762A0B19A5F /* Pods-Atareque-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B4CD06F9DE74B3395045E0E6B77F721 /* Pods-Atareque-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCA4820B20CE6D554C053F81E700239C /* SwipeDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684D2E2FB5303F753253069714A5917E /* SwipeDirection.swift */; };
+		E76BD2A0446D87645815968F2E707C7F /* TwitterPagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8274464CB4D29D6EECC27BAF1C67BAEF /* TwitterPagerTabStripViewController.swift */; };
+		EE959C4768B990B19DFA3068C6E812A6 /* XLPagerTabStrip-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9889A0CEFA474D09A45F3981ED4B4D4E /* XLPagerTabStrip-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA841044D1E002DFF454A5D97082B989 /* PagerTabStripBehaviour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C21FB8930CECAB6B8676196CB548F80 /* PagerTabStripBehaviour.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		589CF22C0109EE98212921753CE72CBC /* PBXContainerItemProxy */ = {
+		2C19895837669199E544EDC4AB71DCF7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C28AE0932E5C37D122F91B18A7CB09FD;
-			remoteInfo = "XLPagerTabStrip-XLPagerTabStrip";
-		};
-		69605D13028227633C466F7A7DADD919 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9BD86179451A08B3AA6B6D1A976CF095;
-			remoteInfo = "Pods-Atareque";
-		};
-		6FF520B363D10ED5A16A87173C9595C4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CD2B1975B5E0ED3FE19AC325BB9EA3EA;
+			remoteGlobalIDString = F443F7FEDF7B45B313A4C20983087F95;
 			remoteInfo = XLPagerTabStrip;
 		};
-		E24576D350473A8BE4E1B43B731ADE5C /* PBXContainerItemProxy */ = {
+		43C290DF66329254CD76A742D4C9474D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9BD86179451A08B3AA6B6D1A976CF095;
-			remoteInfo = "Pods-Atareque";
+			remoteGlobalIDString = E11EB2A48CFFB53C976430BFDD485F16;
+			remoteInfo = "XLPagerTabStrip-XLPagerTabStrip";
+		};
+		675F320D1F55AAFABD19FDCCC2C71688 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F443F7FEDF7B45B313A4C20983087F95;
+			remoteInfo = XLPagerTabStrip;
+		};
+		FE20E69DC88FBC06DB75968AEE6B1838 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F443F7FEDF7B45B313A4C20983087F95;
+			remoteInfo = XLPagerTabStrip;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0060D3F34154F3772DF6C413681FC6B9 /* Pods-Atareque-AtarequeUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Atareque-AtarequeUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0128D92E75B8DC03DBABA6D6FC1EA19B /* Pods_Atareque.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Atareque.framework; path = "Pods-Atareque.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0922A4C233956A14DF7FCDF2F584FACE /* PagerTabStripViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagerTabStripViewController.swift; path = Sources/PagerTabStripViewController.swift; sourceTree = "<group>"; };
-		0B15ADF7493E0853CDB3AADEDDA468FA /* Pods-AtarequeUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AtarequeUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		0BAFD08E429420867ECCE4F9AA049280 /* BarPagerTabStripViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarPagerTabStripViewController.swift; path = Sources/BarPagerTabStripViewController.swift; sourceTree = "<group>"; };
-		11F7BD6D1443F8B707787BCD061239AC /* Pods-AtarequeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AtarequeTests.release.xcconfig"; sourceTree = "<group>"; };
-		1546C6C4A6C1BEB40B00908B2E2C88BF /* Pods-Atareque-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Atareque-resources.sh"; sourceTree = "<group>"; };
-		1596022DBF11544746466D4C003E8BB1 /* Pods-Atareque-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Atareque-frameworks.sh"; sourceTree = "<group>"; };
+		175F5B853B47E02090F0700CCEEDF33B /* Pods-Atareque-AtarequeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Atareque-AtarequeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1A7713F05D79DA74212FB41D490C9A02 /* Pods-Atareque-AtarequeTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Atareque-AtarequeTests-frameworks.sh"; sourceTree = "<group>"; };
 		2301D861BD905564D1012FE57C3E3EB5 /* SegmentedPagerTabStripViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SegmentedPagerTabStripViewController.swift; path = Sources/SegmentedPagerTabStripViewController.swift; sourceTree = "<group>"; };
-		25AD6D44B55BC3837DEED3982786F420 /* Pods_Atareque.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Atareque.framework; path = "Pods-Atareque.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2F5782D3736946C33C5271E326259FEC /* Pods-AtarequeTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AtarequeTests-frameworks.sh"; sourceTree = "<group>"; };
+		272275E181F347EC7D6AA58A65F788C0 /* Pods-Atareque-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Atareque-resources.sh"; sourceTree = "<group>"; };
+		293DEBBF8FF78B439B3B5E47504BBDBF /* Pods_Atareque_AtarequeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Atareque_AtarequeTests.framework; path = "Pods-Atareque-AtarequeTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E2C227B965DFAC69835C1287C990898 /* Pods-Atareque-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Atareque-frameworks.sh"; sourceTree = "<group>"; };
+		2F80172EAF0A8900D9A164B85FCB2D88 /* Pods-Atareque-AtarequeUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Atareque-AtarequeUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3167DA9D0F42DA1E13D2823DB4172FA5 /* BarView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarView.swift; path = Sources/BarView.swift; sourceTree = "<group>"; };
-		33767568BAB6436D7CB194232C1CFBA7 /* Pods-AtarequeUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AtarequeUITests-resources.sh"; sourceTree = "<group>"; };
+		3220E7C23A9BE33B72AA59F2578B5282 /* Pods-Atareque-AtarequeUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Atareque-AtarequeUITests-umbrella.h"; sourceTree = "<group>"; };
 		3380FD4EE94423360391219E93D91D7E /* ButtonCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = ButtonCell.xib; path = Sources/ButtonCell.xib; sourceTree = "<group>"; };
-		369BBB21CFBE2E70E32C9EEEEFA1C3B6 /* Pods-Atareque-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Atareque-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3C3B2B6303A4B01D93134B1AF9D79FE1 /* XLPagerTabStrip.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XLPagerTabStrip.modulemap; sourceTree = "<group>"; };
-		3EFA6A0CE29ACE8CEF635F4908A5DA53 /* Pods-Atareque-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Atareque-acknowledgements.plist"; sourceTree = "<group>"; };
+		3F5535D29E8F9DCCA69F79026E3A107C /* Pods-Atareque-AtarequeTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Atareque-AtarequeTests-umbrella.h"; sourceTree = "<group>"; };
+		3FA07BF32CABF2EF9F938E5B78406694 /* Pods_Atareque_AtarequeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Atareque_AtarequeUITests.framework; path = "Pods-Atareque-AtarequeUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		42691FBC0EE54044DFC4471781B58300 /* XLPagerTabStrip-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XLPagerTabStrip-dummy.m"; sourceTree = "<group>"; };
+		4483CA1C1FCF3E022533CE76A4DB2122 /* Pods-Atareque-AtarequeUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Atareque-AtarequeUITests-resources.sh"; sourceTree = "<group>"; };
 		450E88EA97D70AA7AD3D28B210735BF2 /* ResourceBundle-XLPagerTabStrip-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-XLPagerTabStrip-Info.plist"; sourceTree = "<group>"; };
-		49926AA0A3F2CC95F1B9FC9109EEDAB7 /* Pods-AtarequeUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AtarequeUITests-dummy.m"; sourceTree = "<group>"; };
+		4A328A7D7C6BF3C91E18D1CFD3715280 /* Pods-Atareque-AtarequeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Atareque-AtarequeTests.release.xcconfig"; sourceTree = "<group>"; };
 		4A6A65D65B931B96BD9520A7C113DCE0 /* FXPageControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FXPageControl.h; path = Sources/FXPageControl.h; sourceTree = "<group>"; };
-		4DC3E2E5C06ED052D2EDBC76984C97A4 /* Pods-Atareque.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Atareque.release.xcconfig"; sourceTree = "<group>"; };
-		4E5F9DD05F0C47A47CF16AFCF2D9E32B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4FDF2632CA72EE3AA0873F4663381F91 /* Pods-AtarequeUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AtarequeUITests-frameworks.sh"; sourceTree = "<group>"; };
 		5467C590402A3ECFD1624E46B7846420 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		55BEC7C99717FA6ECEE914F951BDE53F /* BaseButtonBarPagerTabStripViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseButtonBarPagerTabStripViewController.swift; path = Sources/BaseButtonBarPagerTabStripViewController.swift; sourceTree = "<group>"; };
-		5FCA7D3465798C847AB4B5EA173970EF /* Pods-Atareque.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Atareque.debug.xcconfig"; sourceTree = "<group>"; };
-		60A02E0E33388231740E0BEDA6AD7A1F /* Pods-AtarequeTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AtarequeTests-resources.sh"; sourceTree = "<group>"; };
-		63BC1592A90D49E39BE8317C3095D4F3 /* Pods_AtarequeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AtarequeUITests.framework; path = "Pods-AtarequeUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		65E33B364D8D03FF22CECA36C1B3EC39 /* Pods-AtarequeTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AtarequeTests-umbrella.h"; sourceTree = "<group>"; };
+		5D1D94CBF29C846DEBA095DBD38FF4DF /* Pods-Atareque-AtarequeTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Atareque-AtarequeTests-dummy.m"; sourceTree = "<group>"; };
+		649235D4131C0ACE04672C0FEDBB952F /* Pods-Atareque-AtarequeTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Atareque-AtarequeTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		684D2E2FB5303F753253069714A5917E /* SwipeDirection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeDirection.swift; path = Sources/SwipeDirection.swift; sourceTree = "<group>"; };
 		6A40B367F2560B8B7294DD87BF9B0AFF /* ButtonBarView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ButtonBarView.swift; path = Sources/ButtonBarView.swift; sourceTree = "<group>"; };
 		6C21FB8930CECAB6B8676196CB548F80 /* PagerTabStripBehaviour.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagerTabStripBehaviour.swift; path = Sources/PagerTabStripBehaviour.swift; sourceTree = "<group>"; };
 		6F5FAB0BFBF663C6571DA528CD50A2BB /* XLPagerTabStrip-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XLPagerTabStrip-prefix.pch"; sourceTree = "<group>"; };
 		7161ABE8133F59A707855E9EE8310869 /* PagerTabStripError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagerTabStripError.swift; path = Sources/PagerTabStripError.swift; sourceTree = "<group>"; };
-		7D82FBEA48DA0DEE477277DEEB3C4256 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B4CD06F9DE74B3395045E0E6B77F721 /* Pods-Atareque-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Atareque-umbrella.h"; sourceTree = "<group>"; };
 		8274464CB4D29D6EECC27BAF1C67BAEF /* TwitterPagerTabStripViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TwitterPagerTabStripViewController.swift; path = Sources/TwitterPagerTabStripViewController.swift; sourceTree = "<group>"; };
-		84C9B48786EA2B9E95627761FE95A696 /* Pods-AtarequeUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AtarequeUITests.modulemap"; sourceTree = "<group>"; };
+		83B88D7A3433121DC6A703557E716915 /* Pods-Atareque-AtarequeUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Atareque-AtarequeUITests.modulemap"; sourceTree = "<group>"; };
+		8532F4B7667B3E649999909ABD9867CD /* Pods-Atareque-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Atareque-acknowledgements.plist"; sourceTree = "<group>"; };
 		85A921414DBE7B40C87D931CD436D5DB /* ButtonBarViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ButtonBarViewCell.swift; path = Sources/ButtonBarViewCell.swift; sourceTree = "<group>"; };
-		8620C92F96A845F3C9699AC1523D6FA9 /* Pods-AtarequeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AtarequeUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		8DB34874548A9B09AB0644A7A9375DBA /* Pods-AtarequeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AtarequeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8DC3F1C044A75EE970A7DA365B8AD61C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		908E902E026C5C22904CF9014A5604AD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		919A2B06883DA210F13BDAEB8BEA19F7 /* Pods-AtarequeTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AtarequeTests-dummy.m"; sourceTree = "<group>"; };
-		9362CAA0E35F7AE71716167E8C8E0197 /* Pods-AtarequeTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AtarequeTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		92E232DB573277D65D82661D0ED4BB24 /* Pods-Atareque-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Atareque-dummy.m"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9889A0CEFA474D09A45F3981ED4B4D4E /* XLPagerTabStrip-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XLPagerTabStrip-umbrella.h"; sourceTree = "<group>"; };
-		990042F1B298B754ED7E737EC919E1D4 /* Pods-AtarequeUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AtarequeUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		9AFEB9986798D80D513012E735025E54 /* IndicatorInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IndicatorInfo.swift; path = Sources/IndicatorInfo.swift; sourceTree = "<group>"; };
-		9BF38BA13B6BF93DE8E9C81831AADD21 /* Pods-Atareque-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Atareque-dummy.m"; sourceTree = "<group>"; };
-		A0CCD8CA6338D3FDA6088DA243039BBB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A51C7CBDA95E0FCB4DBA3A4CCF903C36 /* XLPagerTabStrip.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XLPagerTabStrip.xcconfig; sourceTree = "<group>"; };
+		A59667AD47080D7919A09397B0AC685E /* XLPagerTabStrip.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = XLPagerTabStrip.bundle; path = "XLPagerTabStrip-XLPagerTabStrip.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB40A4FE16F0FADF876D6E632A6F4583 /* Pods-Atareque-AtarequeTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Atareque-AtarequeTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		ABF014A0E7211E2FB4673CAAE326281A /* Pods-Atareque-AtarequeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Atareque-AtarequeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AEE1CADF86EE0B59E5631AF54FBFD2CD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1AD1A17E70E7C21BA5E5999077EDD23 /* Pods-Atareque-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Atareque-acknowledgements.markdown"; sourceTree = "<group>"; };
 		BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		C747E4CC06EE6AE0DE4746B67FAB5579 /* XLPagerTabStrip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XLPagerTabStrip.framework; path = XLPagerTabStrip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8B779880234CE40AC29FCF19E7EC3F5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C91DA424E89B07313831203133D7E343 /* Pods-Atareque-AtarequeUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Atareque-AtarequeUITests-frameworks.sh"; sourceTree = "<group>"; };
+		CDE5CD60B3AD171396CA46F7D00C0994 /* Pods-Atareque-AtarequeTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Atareque-AtarequeTests.modulemap"; sourceTree = "<group>"; };
 		D09056B385C6845238E924C970E79039 /* FXPageControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FXPageControl.m; path = Sources/FXPageControl.m; sourceTree = "<group>"; };
-		D4430079BEFD6C7AD97D69B2310E7986 /* Pods-AtarequeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AtarequeTests.debug.xcconfig"; sourceTree = "<group>"; };
-		D8F6CB91DE174B456C1BC34B63F3B1D2 /* Pods-AtarequeTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AtarequeTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		DABBC181B224F14F2CE805EA15F02A1C /* Pods-AtarequeUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AtarequeUITests-umbrella.h"; sourceTree = "<group>"; };
-		DF59BD1E70FE20D8264B0FD1EE4DF646 /* Pods-Atareque-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Atareque-umbrella.h"; sourceTree = "<group>"; };
-		DFC091C6B2383435C59D0613A0998E63 /* Pods-Atareque.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Atareque.modulemap"; sourceTree = "<group>"; };
-		E1181E3CA665E6940992F50987F9B9D2 /* XLPagerTabStrip.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = XLPagerTabStrip.bundle; path = "XLPagerTabStrip-XLPagerTabStrip.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE1536EB5A5D52098FCA667EDA6F48C3 /* Pods-Atareque.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Atareque.debug.xcconfig"; sourceTree = "<group>"; };
+		DF24076B865EF85ED6A03EA60D7109E5 /* XLPagerTabStrip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XLPagerTabStrip.framework; path = XLPagerTabStrip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3D78BC42755EDEA41D0EFE7EAD90B61 /* ButtonBarPagerTabStripViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ButtonBarPagerTabStripViewController.swift; path = Sources/ButtonBarPagerTabStripViewController.swift; sourceTree = "<group>"; };
-		F313637DF686B47B6716651798E16FD3 /* Pods_AtarequeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AtarequeTests.framework; path = "Pods-AtarequeTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FAE8B119F6F70489376E6832E05A4908 /* Pods-AtarequeTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AtarequeTests.modulemap"; sourceTree = "<group>"; };
+		F03FF39FA906CD71A9FF87E3B5CEE068 /* Pods-Atareque-AtarequeUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Atareque-AtarequeUITests-dummy.m"; sourceTree = "<group>"; };
+		F9F1E1537F367AB0600966B12B7F2EAD /* Pods-Atareque-AtarequeTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Atareque-AtarequeTests-resources.sh"; sourceTree = "<group>"; };
+		FDB3BC57383F4ED23B8D671A9556A2C8 /* Pods-Atareque.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Atareque.modulemap"; sourceTree = "<group>"; };
+		FE1C107397E22EA5194749D7125DA556 /* Pods-Atareque.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Atareque.release.xcconfig"; sourceTree = "<group>"; };
+		FF53B4E29F5F2D064D692D93C6F09A2D /* Pods-Atareque-AtarequeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Atareque-AtarequeUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2DC22981E2F0E57917E2EC1A765F24E0 /* Frameworks */ = {
+		1CA586DC16537422DF8368EBFE9E61C0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA09DBB501AFBA773D657E1606C78A61 /* Foundation.framework in Frameworks */,
+				CB2A7E69CF580A05951B9F02CAC2C4EF /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8ED094200FB6BA4A891B299FB954A72C /* Frameworks */ = {
+		83D108F70AB9F1AAABEAD7F6AED2CD30 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E8459D80F3900FFF9994A7693E46FA57 /* Foundation.framework in Frameworks */,
+				B9C9DA37BEA12FC039C346BADDB931D9 /* Foundation.framework in Frameworks */,
+				78D8D86D0D4FBF8B0192A9D35B4DBA8F /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9670A267D93A8512444BB58422B244DF /* Frameworks */ = {
+		8DC05CEC3BE26C2AA59D3E9C9436FAAA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE38DB12ACAFFABF7CB9B722FAAB66CD /* Foundation.framework in Frameworks */,
+				B5965013D6002F8485ADDCAEEC5FB5DF /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CF21DA605AC416A07BB87056AF74F46C /* Frameworks */ = {
+		B26E95F5F4A524C7178ECD041846DFBA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D08EE11FA44475A4EBA503A7BDB7761 /* Foundation.framework in Frameworks */,
-				827BD16BB1B287649E4D68737DBAFBD2 /* UIKit.framework in Frameworks */,
+				584BD5BCD617D792AF51190770CBDF32 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D9976CBF7A7AEBC79D7349583CA30AB4 /* Frameworks */ = {
+		E533E97EFE93F927A43D6E27DF5DD4BB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -188,6 +188,42 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		2272A7BB843ADD20B059F70D9C3FA01F /* Pods-Atareque-AtarequeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8DC3F1C044A75EE970A7DA365B8AD61C /* Info.plist */,
+				83B88D7A3433121DC6A703557E716915 /* Pods-Atareque-AtarequeUITests.modulemap */,
+				2F80172EAF0A8900D9A164B85FCB2D88 /* Pods-Atareque-AtarequeUITests-acknowledgements.markdown */,
+				0060D3F34154F3772DF6C413681FC6B9 /* Pods-Atareque-AtarequeUITests-acknowledgements.plist */,
+				F03FF39FA906CD71A9FF87E3B5CEE068 /* Pods-Atareque-AtarequeUITests-dummy.m */,
+				C91DA424E89B07313831203133D7E343 /* Pods-Atareque-AtarequeUITests-frameworks.sh */,
+				4483CA1C1FCF3E022533CE76A4DB2122 /* Pods-Atareque-AtarequeUITests-resources.sh */,
+				3220E7C23A9BE33B72AA59F2578B5282 /* Pods-Atareque-AtarequeUITests-umbrella.h */,
+				FF53B4E29F5F2D064D692D93C6F09A2D /* Pods-Atareque-AtarequeUITests.debug.xcconfig */,
+				ABF014A0E7211E2FB4673CAAE326281A /* Pods-Atareque-AtarequeUITests.release.xcconfig */,
+			);
+			name = "Pods-Atareque-AtarequeUITests";
+			path = "Target Support Files/Pods-Atareque-AtarequeUITests";
+			sourceTree = "<group>";
+		};
+		28EF91E7EE22400A8D0F84CDD42E0D8B /* Pods-Atareque-AtarequeTests */ = {
+			isa = PBXGroup;
+			children = (
+				AEE1CADF86EE0B59E5631AF54FBFD2CD /* Info.plist */,
+				CDE5CD60B3AD171396CA46F7D00C0994 /* Pods-Atareque-AtarequeTests.modulemap */,
+				649235D4131C0ACE04672C0FEDBB952F /* Pods-Atareque-AtarequeTests-acknowledgements.markdown */,
+				AB40A4FE16F0FADF876D6E632A6F4583 /* Pods-Atareque-AtarequeTests-acknowledgements.plist */,
+				5D1D94CBF29C846DEBA095DBD38FF4DF /* Pods-Atareque-AtarequeTests-dummy.m */,
+				1A7713F05D79DA74212FB41D490C9A02 /* Pods-Atareque-AtarequeTests-frameworks.sh */,
+				F9F1E1537F367AB0600966B12B7F2EAD /* Pods-Atareque-AtarequeTests-resources.sh */,
+				3F5535D29E8F9DCCA69F79026E3A107C /* Pods-Atareque-AtarequeTests-umbrella.h */,
+				175F5B853B47E02090F0700CCEEDF33B /* Pods-Atareque-AtarequeTests.debug.xcconfig */,
+				4A328A7D7C6BF3C91E18D1CFD3715280 /* Pods-Atareque-AtarequeTests.release.xcconfig */,
+			);
+			name = "Pods-Atareque-AtarequeTests";
+			path = "Target Support Files/Pods-Atareque-AtarequeTests";
+			sourceTree = "<group>";
+		};
 		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -196,58 +232,16 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		45F122783EAB8189527241140EA0FAFD /* Pods-AtarequeTests */ = {
+		46B98D451FF4B652980E300D77A1016E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A0CCD8CA6338D3FDA6088DA243039BBB /* Info.plist */,
-				FAE8B119F6F70489376E6832E05A4908 /* Pods-AtarequeTests.modulemap */,
-				9362CAA0E35F7AE71716167E8C8E0197 /* Pods-AtarequeTests-acknowledgements.markdown */,
-				D8F6CB91DE174B456C1BC34B63F3B1D2 /* Pods-AtarequeTests-acknowledgements.plist */,
-				919A2B06883DA210F13BDAEB8BEA19F7 /* Pods-AtarequeTests-dummy.m */,
-				2F5782D3736946C33C5271E326259FEC /* Pods-AtarequeTests-frameworks.sh */,
-				60A02E0E33388231740E0BEDA6AD7A1F /* Pods-AtarequeTests-resources.sh */,
-				65E33B364D8D03FF22CECA36C1B3EC39 /* Pods-AtarequeTests-umbrella.h */,
-				D4430079BEFD6C7AD97D69B2310E7986 /* Pods-AtarequeTests.debug.xcconfig */,
-				11F7BD6D1443F8B707787BCD061239AC /* Pods-AtarequeTests.release.xcconfig */,
+				0128D92E75B8DC03DBABA6D6FC1EA19B /* Pods_Atareque.framework */,
+				293DEBBF8FF78B439B3B5E47504BBDBF /* Pods_Atareque_AtarequeTests.framework */,
+				3FA07BF32CABF2EF9F938E5B78406694 /* Pods_Atareque_AtarequeUITests.framework */,
+				A59667AD47080D7919A09397B0AC685E /* XLPagerTabStrip.bundle */,
+				DF24076B865EF85ED6A03EA60D7109E5 /* XLPagerTabStrip.framework */,
 			);
-			name = "Pods-AtarequeTests";
-			path = "Target Support Files/Pods-AtarequeTests";
-			sourceTree = "<group>";
-		};
-		628AF659F8E95D5448DB87D73D74C6AF /* Pods-Atareque */ = {
-			isa = PBXGroup;
-			children = (
-				4E5F9DD05F0C47A47CF16AFCF2D9E32B /* Info.plist */,
-				DFC091C6B2383435C59D0613A0998E63 /* Pods-Atareque.modulemap */,
-				369BBB21CFBE2E70E32C9EEEEFA1C3B6 /* Pods-Atareque-acknowledgements.markdown */,
-				3EFA6A0CE29ACE8CEF635F4908A5DA53 /* Pods-Atareque-acknowledgements.plist */,
-				9BF38BA13B6BF93DE8E9C81831AADD21 /* Pods-Atareque-dummy.m */,
-				1596022DBF11544746466D4C003E8BB1 /* Pods-Atareque-frameworks.sh */,
-				1546C6C4A6C1BEB40B00908B2E2C88BF /* Pods-Atareque-resources.sh */,
-				DF59BD1E70FE20D8264B0FD1EE4DF646 /* Pods-Atareque-umbrella.h */,
-				5FCA7D3465798C847AB4B5EA173970EF /* Pods-Atareque.debug.xcconfig */,
-				4DC3E2E5C06ED052D2EDBC76984C97A4 /* Pods-Atareque.release.xcconfig */,
-			);
-			name = "Pods-Atareque";
-			path = "Target Support Files/Pods-Atareque";
-			sourceTree = "<group>";
-		};
-		739893D28E50D7E36F5D99CF628E7C0A /* Pods-AtarequeUITests */ = {
-			isa = PBXGroup;
-			children = (
-				7D82FBEA48DA0DEE477277DEEB3C4256 /* Info.plist */,
-				84C9B48786EA2B9E95627761FE95A696 /* Pods-AtarequeUITests.modulemap */,
-				0B15ADF7493E0853CDB3AADEDDA468FA /* Pods-AtarequeUITests-acknowledgements.markdown */,
-				990042F1B298B754ED7E737EC919E1D4 /* Pods-AtarequeUITests-acknowledgements.plist */,
-				49926AA0A3F2CC95F1B9FC9109EEDAB7 /* Pods-AtarequeUITests-dummy.m */,
-				4FDF2632CA72EE3AA0873F4663381F91 /* Pods-AtarequeUITests-frameworks.sh */,
-				33767568BAB6436D7CB194232C1CFBA7 /* Pods-AtarequeUITests-resources.sh */,
-				DABBC181B224F14F2CE805EA15F02A1C /* Pods-AtarequeUITests-umbrella.h */,
-				8620C92F96A845F3C9699AC1523D6FA9 /* Pods-AtarequeUITests.debug.xcconfig */,
-				8DB34874548A9B09AB0644A7A9375DBA /* Pods-AtarequeUITests.release.xcconfig */,
-			);
-			name = "Pods-AtarequeUITests";
-			path = "Target Support Files/Pods-AtarequeUITests";
+			name = Products;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -256,8 +250,8 @@
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
 				9AE3A07843C8C778ED30586199E24910 /* Pods */,
-				C1DDBDC6A4A255E15FBFD75233063724 /* Products */,
-				CD8F095188619044EF672D41C70C541C /* Targets Support Files */,
+				46B98D451FF4B652980E300D77A1016E /* Products */,
+				D7A247C6A9221CBC1DD9BC7A54590AA4 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -310,6 +304,24 @@
 			path = XLPagerTabStrip;
 			sourceTree = "<group>";
 		};
+		9D6B38E87FCE7ACA575E7DEC319737E2 /* Pods-Atareque */ = {
+			isa = PBXGroup;
+			children = (
+				C8B779880234CE40AC29FCF19E7EC3F5 /* Info.plist */,
+				FDB3BC57383F4ED23B8D671A9556A2C8 /* Pods-Atareque.modulemap */,
+				B1AD1A17E70E7C21BA5E5999077EDD23 /* Pods-Atareque-acknowledgements.markdown */,
+				8532F4B7667B3E649999909ABD9867CD /* Pods-Atareque-acknowledgements.plist */,
+				92E232DB573277D65D82661D0ED4BB24 /* Pods-Atareque-dummy.m */,
+				2E2C227B965DFAC69835C1287C990898 /* Pods-Atareque-frameworks.sh */,
+				272275E181F347EC7D6AA58A65F788C0 /* Pods-Atareque-resources.sh */,
+				7B4CD06F9DE74B3395045E0E6B77F721 /* Pods-Atareque-umbrella.h */,
+				DE1536EB5A5D52098FCA667EDA6F48C3 /* Pods-Atareque.debug.xcconfig */,
+				FE1C107397E22EA5194749D7125DA556 /* Pods-Atareque.release.xcconfig */,
+			);
+			name = "Pods-Atareque";
+			path = "Target Support Files/Pods-Atareque";
+			sourceTree = "<group>";
+		};
 		B08F44A04415396C5E21D2DDAEDE5987 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -317,24 +329,12 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		C1DDBDC6A4A255E15FBFD75233063724 /* Products */ = {
+		D7A247C6A9221CBC1DD9BC7A54590AA4 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				25AD6D44B55BC3837DEED3982786F420 /* Pods_Atareque.framework */,
-				F313637DF686B47B6716651798E16FD3 /* Pods_AtarequeTests.framework */,
-				63BC1592A90D49E39BE8317C3095D4F3 /* Pods_AtarequeUITests.framework */,
-				E1181E3CA665E6940992F50987F9B9D2 /* XLPagerTabStrip.bundle */,
-				C747E4CC06EE6AE0DE4746B67FAB5579 /* XLPagerTabStrip.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		CD8F095188619044EF672D41C70C541C /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				628AF659F8E95D5448DB87D73D74C6AF /* Pods-Atareque */,
-				45F122783EAB8189527241140EA0FAFD /* Pods-AtarequeTests */,
-				739893D28E50D7E36F5D99CF628E7C0A /* Pods-AtarequeUITests */,
+				9D6B38E87FCE7ACA575E7DEC319737E2 /* Pods-Atareque */,
+				28EF91E7EE22400A8D0F84CDD42E0D8B /* Pods-Atareque-AtarequeTests */,
+				2272A7BB843ADD20B059F70D9C3FA01F /* Pods-Atareque-AtarequeUITests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
@@ -342,103 +342,103 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1CE65B0C47ECAAC732BED82A8F960FEA /* Headers */ = {
+		48F49DA29E3540F8DD439C88F715E2BF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DFBD3D93BC63790F2B6C090163685FA1 /* FXPageControl.h in Headers */,
-				55E7FD65336440FDDEE16E080D0AB57A /* XLPagerTabStrip-umbrella.h in Headers */,
+				ACCF38F43FF03A7F40E9FD77550BD835 /* FXPageControl.h in Headers */,
+				EE959C4768B990B19DFA3068C6E812A6 /* XLPagerTabStrip-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		26D903388FC48C3EE659AA948FA825D6 /* Headers */ = {
+		565422C18CFD7544FC8E6F4D5706F244 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6FF171D64767F6371CE4DB7393E99E39 /* Pods-AtarequeUITests-umbrella.h in Headers */,
+				D56204274823F5C66397218E1EC6C0EF /* Pods-Atareque-AtarequeTests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		289C4DC5EF03841C623A62F40D6171BA /* Headers */ = {
+		EC169C2E4E8CDE9AFEDA699C9FE4679C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D7F68BE15873E2BE47DA471B71EF550E /* Pods-AtarequeTests-umbrella.h in Headers */,
+				269FBDB2995890574A5C948F8EBA1A36 /* Pods-Atareque-AtarequeUITests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		465FC0624349CB2C2F3CEF5AB2BFFEA9 /* Headers */ = {
+		FAE435E58E9FCF3B0FB4A81999813C61 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8EBDEBEFD65E1F2698BFA1BB44D46E46 /* Pods-Atareque-umbrella.h in Headers */,
+				D57086170171AB1E29066762A0B19A5F /* Pods-Atareque-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		94A470719D674EDBCD2684F20CC700BA /* Pods-AtarequeUITests */ = {
+		19799708432F15FDA91EDA65016F39CA /* Pods-Atareque */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3CCF929F194541F829E55335E9737B03 /* Build configuration list for PBXNativeTarget "Pods-AtarequeUITests" */;
+			buildConfigurationList = CA4D22C774C2AA175C2FF399265F7E6E /* Build configuration list for PBXNativeTarget "Pods-Atareque" */;
 			buildPhases = (
-				C7D0660C25284517E703D6B0B578ABA0 /* Sources */,
-				8ED094200FB6BA4A891B299FB954A72C /* Frameworks */,
-				26D903388FC48C3EE659AA948FA825D6 /* Headers */,
+				452F0887196B0ECC82279510610E0EB8 /* Sources */,
+				8DC05CEC3BE26C2AA59D3E9C9436FAAA /* Frameworks */,
+				FAE435E58E9FCF3B0FB4A81999813C61 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B032CC97ED72DADF420838B1ED66627A /* PBXTargetDependency */,
-			);
-			name = "Pods-AtarequeUITests";
-			productName = "Pods-AtarequeUITests";
-			productReference = 63BC1592A90D49E39BE8317C3095D4F3 /* Pods_AtarequeUITests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		9BD86179451A08B3AA6B6D1A976CF095 /* Pods-Atareque */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A71BC17BBF64178E348AF507E0CD01D6 /* Build configuration list for PBXNativeTarget "Pods-Atareque" */;
-			buildPhases = (
-				5A64B1135D63F08447170FCC6C9AA647 /* Sources */,
-				9670A267D93A8512444BB58422B244DF /* Frameworks */,
-				465FC0624349CB2C2F3CEF5AB2BFFEA9 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
+				0A93A717B2325D1B4C83A5E107D9B0D5 /* PBXTargetDependency */,
 			);
 			name = "Pods-Atareque";
 			productName = "Pods-Atareque";
-			productReference = 25AD6D44B55BC3837DEED3982786F420 /* Pods_Atareque.framework */;
+			productReference = 0128D92E75B8DC03DBABA6D6FC1EA19B /* Pods_Atareque.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		BD5ED508D794967D23E2F804E87C0E00 /* Pods-AtarequeTests */ = {
+		4D265E9615FB3C481A83C61DA50E9754 /* Pods-Atareque-AtarequeUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F195F23A0E1EA6DBF8D88AC5CAFBA91B /* Build configuration list for PBXNativeTarget "Pods-AtarequeTests" */;
+			buildConfigurationList = E5A3F00E6AA89A7A3A1E12A17287974B /* Build configuration list for PBXNativeTarget "Pods-Atareque-AtarequeUITests" */;
 			buildPhases = (
-				AEAF2E58EFEB5FB6366E3148727CE82F /* Sources */,
-				2DC22981E2F0E57917E2EC1A765F24E0 /* Frameworks */,
-				289C4DC5EF03841C623A62F40D6171BA /* Headers */,
+				76383A67D199D84F4ACF4EDB5F6DE004 /* Sources */,
+				1CA586DC16537422DF8368EBFE9E61C0 /* Frameworks */,
+				EC169C2E4E8CDE9AFEDA699C9FE4679C /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				1519A0298277F7381AF64FCD71B353D7 /* PBXTargetDependency */,
-				F56085662D8E0F5B6D68C11524672A0B /* PBXTargetDependency */,
+				7981B3A8FE96B6C6575662199544D037 /* PBXTargetDependency */,
 			);
-			name = "Pods-AtarequeTests";
-			productName = "Pods-AtarequeTests";
-			productReference = F313637DF686B47B6716651798E16FD3 /* Pods_AtarequeTests.framework */;
+			name = "Pods-Atareque-AtarequeUITests";
+			productName = "Pods-Atareque-AtarequeUITests";
+			productReference = 3FA07BF32CABF2EF9F938E5B78406694 /* Pods_Atareque_AtarequeUITests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		C28AE0932E5C37D122F91B18A7CB09FD /* XLPagerTabStrip-XLPagerTabStrip */ = {
+		DE6472BDA21FD57D3C8C02DA3FE1477F /* Pods-Atareque-AtarequeTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AA8AA38D99D5BAC2C9C2687A3E0BFB4A /* Build configuration list for PBXNativeTarget "XLPagerTabStrip-XLPagerTabStrip" */;
+			buildConfigurationList = A753B48E2768D63F0580C3A04C084D85 /* Build configuration list for PBXNativeTarget "Pods-Atareque-AtarequeTests" */;
 			buildPhases = (
-				342D4595ABD29458BD51C714BF193505 /* Sources */,
-				D9976CBF7A7AEBC79D7349583CA30AB4 /* Frameworks */,
-				1DD15C42EE696166EAA6787274EEAFE9 /* Resources */,
+				2604A2566E372DC896D4E317D22D7787 /* Sources */,
+				B26E95F5F4A524C7178ECD041846DFBA /* Frameworks */,
+				565422C18CFD7544FC8E6F4D5706F244 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D41A56975FD6963FE7C4088DA3A809C /* PBXTargetDependency */,
+			);
+			name = "Pods-Atareque-AtarequeTests";
+			productName = "Pods-Atareque-AtarequeTests";
+			productReference = 293DEBBF8FF78B439B3B5E47504BBDBF /* Pods_Atareque_AtarequeTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E11EB2A48CFFB53C976430BFDD485F16 /* XLPagerTabStrip-XLPagerTabStrip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB9628B9D643E34B61E455FDF8A05029 /* Build configuration list for PBXNativeTarget "XLPagerTabStrip-XLPagerTabStrip" */;
+			buildPhases = (
+				F8301288D931BAD9D84796CF5BB420F7 /* Sources */,
+				E533E97EFE93F927A43D6E27DF5DD4BB /* Frameworks */,
+				60AA2039352D0E01A9DC839EE39227F5 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -446,26 +446,26 @@
 			);
 			name = "XLPagerTabStrip-XLPagerTabStrip";
 			productName = "XLPagerTabStrip-XLPagerTabStrip";
-			productReference = E1181E3CA665E6940992F50987F9B9D2 /* XLPagerTabStrip.bundle */;
+			productReference = A59667AD47080D7919A09397B0AC685E /* XLPagerTabStrip.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
-		CD2B1975B5E0ED3FE19AC325BB9EA3EA /* XLPagerTabStrip */ = {
+		F443F7FEDF7B45B313A4C20983087F95 /* XLPagerTabStrip */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8DEFDE44466237B5F23DDA58CC1BB830 /* Build configuration list for PBXNativeTarget "XLPagerTabStrip" */;
+			buildConfigurationList = B9801C3F1F29BBCB4740BE97E33D819E /* Build configuration list for PBXNativeTarget "XLPagerTabStrip" */;
 			buildPhases = (
-				44CCCF274B8DECF3D5A385A74D0DC8D7 /* Sources */,
-				CF21DA605AC416A07BB87056AF74F46C /* Frameworks */,
-				78B2E49B0A83EAE0B44CAD58FEAF1768 /* Resources */,
-				1CE65B0C47ECAAC732BED82A8F960FEA /* Headers */,
+				1BDB30A501EF0272DB15C37F430FC587 /* Sources */,
+				83D108F70AB9F1AAABEAD7F6AED2CD30 /* Frameworks */,
+				B05F1933DD6AF5922666DCE53A2E94FB /* Resources */,
+				48F49DA29E3540F8DD439C88F715E2BF /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				6B9EA8376ADF0FE3AB4EF047B5C1267B /* PBXTargetDependency */,
+				2C4EE01BD5B30F12EFF8C1697381685B /* PBXTargetDependency */,
 			);
 			name = XLPagerTabStrip;
 			productName = XLPagerTabStrip;
-			productReference = C747E4CC06EE6AE0DE4746B67FAB5579 /* XLPagerTabStrip.framework */;
+			productReference = DF24076B865EF85ED6A03EA60D7109E5 /* XLPagerTabStrip.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -485,140 +485,196 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = C1DDBDC6A4A255E15FBFD75233063724 /* Products */;
+			productRefGroup = 46B98D451FF4B652980E300D77A1016E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9BD86179451A08B3AA6B6D1A976CF095 /* Pods-Atareque */,
-				BD5ED508D794967D23E2F804E87C0E00 /* Pods-AtarequeTests */,
-				94A470719D674EDBCD2684F20CC700BA /* Pods-AtarequeUITests */,
-				CD2B1975B5E0ED3FE19AC325BB9EA3EA /* XLPagerTabStrip */,
-				C28AE0932E5C37D122F91B18A7CB09FD /* XLPagerTabStrip-XLPagerTabStrip */,
+				19799708432F15FDA91EDA65016F39CA /* Pods-Atareque */,
+				DE6472BDA21FD57D3C8C02DA3FE1477F /* Pods-Atareque-AtarequeTests */,
+				4D265E9615FB3C481A83C61DA50E9754 /* Pods-Atareque-AtarequeUITests */,
+				F443F7FEDF7B45B313A4C20983087F95 /* XLPagerTabStrip */,
+				E11EB2A48CFFB53C976430BFDD485F16 /* XLPagerTabStrip-XLPagerTabStrip */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1DD15C42EE696166EAA6787274EEAFE9 /* Resources */ = {
+		60AA2039352D0E01A9DC839EE39227F5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76EC73BB1947AB724BEFB6389998BDE9 /* ButtonCell.xib in Resources */,
+				83F861A3B3E74BE92E26B82606B0C0A8 /* ButtonCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		78B2E49B0A83EAE0B44CAD58FEAF1768 /* Resources */ = {
+		B05F1933DD6AF5922666DCE53A2E94FB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C098D486DCB6AA5E3ACCCF82DAA3804A /* XLPagerTabStrip.bundle in Resources */,
+				CE8EC1B6AEFB9A6EA572A053950FB2DA /* XLPagerTabStrip.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		342D4595ABD29458BD51C714BF193505 /* Sources */ = {
+		1BDB30A501EF0272DB15C37F430FC587 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDF71D6932368B8B26FD60AFC956988F /* BarPagerTabStripViewController.swift in Sources */,
+				2D3A04160D8F230E0584FB7BA8A64695 /* BarView.swift in Sources */,
+				0900B0012B8955E2C7BF7489E3F8A61E /* BaseButtonBarPagerTabStripViewController.swift in Sources */,
+				AE569F4EA0B0BB5039D8DFE5DBFCC4CF /* ButtonBarPagerTabStripViewController.swift in Sources */,
+				B99B1CBD21B674CE31136BDE3381381C /* ButtonBarView.swift in Sources */,
+				70B10C459CBA46C138D6CE9A884A9949 /* ButtonBarViewCell.swift in Sources */,
+				45E4E82A1F036B04DB42BF6A4886C4C0 /* ButtonCell.xib in Sources */,
+				A893FBA25C4160F2DA2A827B0F15F760 /* FXPageControl.m in Sources */,
+				3AA2273FEE174D8CCDF591975563D402 /* IndicatorInfo.swift in Sources */,
+				FA841044D1E002DFF454A5D97082B989 /* PagerTabStripBehaviour.swift in Sources */,
+				5CAE169E7128293CB602A76125031443 /* PagerTabStripError.swift in Sources */,
+				B226BB28B83437A729569BE2D58BE370 /* PagerTabStripViewController.swift in Sources */,
+				B4A9680A5976D48A1265EEEB46ACA908 /* SegmentedPagerTabStripViewController.swift in Sources */,
+				DCA4820B20CE6D554C053F81E700239C /* SwipeDirection.swift in Sources */,
+				E76BD2A0446D87645815968F2E707C7F /* TwitterPagerTabStripViewController.swift in Sources */,
+				93959A98C3D129DE18041FC8EF12F3C0 /* XLPagerTabStrip-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		44CCCF274B8DECF3D5A385A74D0DC8D7 /* Sources */ = {
+		2604A2566E372DC896D4E317D22D7787 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18EB45448D456615040E839BFE2BCF41 /* BarPagerTabStripViewController.swift in Sources */,
-				ED74A18381C3B4A9183998EE88958320 /* BarView.swift in Sources */,
-				44916B37255D85F1D7465AD9B7F29D00 /* BaseButtonBarPagerTabStripViewController.swift in Sources */,
-				F566331E9522E279F5FF271D7E5399F5 /* ButtonBarPagerTabStripViewController.swift in Sources */,
-				4ADB7A2D51AE7E5C4404FD91FB0C337D /* ButtonBarView.swift in Sources */,
-				457559117C9117FA1F97B46E2DF4D41C /* ButtonBarViewCell.swift in Sources */,
-				6D7155D00437BE4453DE604C3FB66CCC /* ButtonCell.xib in Sources */,
-				B8C3B05D9588A9D291E1D49056725C4E /* FXPageControl.m in Sources */,
-				F9CCA7921EF9B2E38CC8D39CAC1DBF02 /* IndicatorInfo.swift in Sources */,
-				E6E36A86E057A30060CDF720286BC396 /* PagerTabStripBehaviour.swift in Sources */,
-				BBCA54E23A53B144285ADE4294ED3E16 /* PagerTabStripError.swift in Sources */,
-				5B7914132F6D40125EF0DB5B8E6DFCB4 /* PagerTabStripViewController.swift in Sources */,
-				17E6372FB0B97EF077E119BA5CA1DD73 /* SegmentedPagerTabStripViewController.swift in Sources */,
-				3D53276F8039A179CE7E7A181727F69C /* SwipeDirection.swift in Sources */,
-				50AF02CD0403B98C60BE02F7A678EBBA /* TwitterPagerTabStripViewController.swift in Sources */,
-				888756F883282730AFB6A1D136FBF8C9 /* XLPagerTabStrip-dummy.m in Sources */,
+				6E64F92423CF6A41B49DD13E227E3C16 /* Pods-Atareque-AtarequeTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5A64B1135D63F08447170FCC6C9AA647 /* Sources */ = {
+		452F0887196B0ECC82279510610E0EB8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1577FA86B341B4212FAC242005C6BC0F /* Pods-Atareque-dummy.m in Sources */,
+				2C8760E582109D2EA409D9531C5202D3 /* Pods-Atareque-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AEAF2E58EFEB5FB6366E3148727CE82F /* Sources */ = {
+		76383A67D199D84F4ACF4EDB5F6DE004 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7AC1E6987E0C2C4ECF9728BFE32C4CC /* Pods-AtarequeTests-dummy.m in Sources */,
+				21536FF097C3CC6FE40B338A17E00F42 /* Pods-Atareque-AtarequeUITests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C7D0660C25284517E703D6B0B578ABA0 /* Sources */ = {
+		F8301288D931BAD9D84796CF5BB420F7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E9CED4BC8FFB8F2F58BABFAF2B76E32 /* Pods-AtarequeUITests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1519A0298277F7381AF64FCD71B353D7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-Atareque";
-			target = 9BD86179451A08B3AA6B6D1A976CF095 /* Pods-Atareque */;
-			targetProxy = 69605D13028227633C466F7A7DADD919 /* PBXContainerItemProxy */;
-		};
-		6B9EA8376ADF0FE3AB4EF047B5C1267B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "XLPagerTabStrip-XLPagerTabStrip";
-			target = C28AE0932E5C37D122F91B18A7CB09FD /* XLPagerTabStrip-XLPagerTabStrip */;
-			targetProxy = 589CF22C0109EE98212921753CE72CBC /* PBXContainerItemProxy */;
-		};
-		B032CC97ED72DADF420838B1ED66627A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-Atareque";
-			target = 9BD86179451A08B3AA6B6D1A976CF095 /* Pods-Atareque */;
-			targetProxy = E24576D350473A8BE4E1B43B731ADE5C /* PBXContainerItemProxy */;
-		};
-		F56085662D8E0F5B6D68C11524672A0B /* PBXTargetDependency */ = {
+		0A93A717B2325D1B4C83A5E107D9B0D5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = XLPagerTabStrip;
-			target = CD2B1975B5E0ED3FE19AC325BB9EA3EA /* XLPagerTabStrip */;
-			targetProxy = 6FF520B363D10ED5A16A87173C9595C4 /* PBXContainerItemProxy */;
+			target = F443F7FEDF7B45B313A4C20983087F95 /* XLPagerTabStrip */;
+			targetProxy = FE20E69DC88FBC06DB75968AEE6B1838 /* PBXContainerItemProxy */;
+		};
+		2C4EE01BD5B30F12EFF8C1697381685B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "XLPagerTabStrip-XLPagerTabStrip";
+			target = E11EB2A48CFFB53C976430BFDD485F16 /* XLPagerTabStrip-XLPagerTabStrip */;
+			targetProxy = 43C290DF66329254CD76A742D4C9474D /* PBXContainerItemProxy */;
+		};
+		7981B3A8FE96B6C6575662199544D037 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XLPagerTabStrip;
+			target = F443F7FEDF7B45B313A4C20983087F95 /* XLPagerTabStrip */;
+			targetProxy = 2C19895837669199E544EDC4AB71DCF7 /* PBXContainerItemProxy */;
+		};
+		7D41A56975FD6963FE7C4088DA3A809C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XLPagerTabStrip;
+			target = F443F7FEDF7B45B313A4C20983087F95 /* XLPagerTabStrip */;
+			targetProxy = 675F320D1F55AAFABD19FDCCC2C71688 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0C387D029F44671FA8FC3B039114CC28 /* Debug */ = {
+		15E763250B288CE2E4C76EE38A036BB9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A51C7CBDA95E0FCB4DBA3A4CCF903C36 /* XLPagerTabStrip.xcconfig */;
+			baseConfigurationReference = FF53B4E29F5F2D064D692D93C6F09A2D /* Pods-Atareque-AtarequeUITests.debug.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/XLPagerTabStrip";
-				INFOPLIST_FILE = "Target Support Files/XLPagerTabStrip/ResourceBundle-XLPagerTabStrip-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = XLPagerTabStrip;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Atareque-AtarequeUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Atareque-AtarequeUITests/Pods-Atareque-AtarequeUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		0DF2A2A035AC2416B5D0BF70D6916293 /* Release */ = {
+		2640D7C2DD66CBABCE5DAEBBF20E4450 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE1536EB5A5D52098FCA667EDA6F48C3 /* Pods-Atareque.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Atareque/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Atareque/Pods-Atareque.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3B62425E59AF0DC9AECFC79056752516 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A51C7CBDA95E0FCB4DBA3A4CCF903C36 /* XLPagerTabStrip.xcconfig */;
 			buildSettings = {
@@ -651,7 +707,43 @@
 			};
 			name = Release;
 		};
-		33171FEFABCA570BC7461B89A1439F58 /* Debug */ = {
+		4A7E8B65FC9ECAEE4897AF7DD3D17DD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 175F5B853B47E02090F0700CCEEDF33B /* Pods-Atareque-AtarequeTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Atareque-AtarequeTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Atareque-AtarequeTests/Pods-Atareque-AtarequeTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4EAC210FCC436EA9E20CE1DC8C9B4098 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A51C7CBDA95E0FCB4DBA3A4CCF903C36 /* XLPagerTabStrip.xcconfig */;
 			buildSettings = {
@@ -682,41 +774,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		4FF4C920F609698B0D9E2CC688B24251 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4DC3E2E5C06ED052D2EDBC76984C97A4 /* Pods-Atareque.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Atareque/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Atareque/Pods-Atareque.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		553022A828EE1991F07D2D73F565AEF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -839,9 +896,25 @@
 			};
 			name = Release;
 		};
-		65052FE794A8A62BA1FAC41F1B4C21BF /* Debug */ = {
+		6D30D0CF03EE44BB3D767535BB86A3E2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8620C92F96A845F3C9699AC1523D6FA9 /* Pods-AtarequeUITests.debug.xcconfig */;
+			baseConfigurationReference = A51C7CBDA95E0FCB4DBA3A4CCF903C36 /* XLPagerTabStrip.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/XLPagerTabStrip";
+				INFOPLIST_FILE = "Target Support Files/XLPagerTabStrip/ResourceBundle-XLPagerTabStrip-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = XLPagerTabStrip;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		7B0BC79FAB0679FD94A0DD718F79670A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABF014A0E7211E2FB4673CAAE326281A /* Pods-Atareque-AtarequeUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -854,12 +927,12 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-AtarequeUITests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-Atareque-AtarequeUITests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AtarequeUITests/Pods-AtarequeUITests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-Atareque-AtarequeUITests/Pods-Atareque-AtarequeUITests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -867,15 +940,69 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
+			name = Release;
+		};
+		803AFB8C9C3DF3B102DB15CD74E4A15A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A328A7D7C6BF3C91E18D1CFD3715280 /* Pods-Atareque-AtarequeTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Atareque-AtarequeTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Atareque-AtarequeTests/Pods-Atareque-AtarequeTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		81142BFD0F151164E76710DA159491F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A51C7CBDA95E0FCB4DBA3A4CCF903C36 /* XLPagerTabStrip.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/XLPagerTabStrip";
+				INFOPLIST_FILE = "Target Support Files/XLPagerTabStrip/ResourceBundle-XLPagerTabStrip-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = XLPagerTabStrip;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
 			name = Debug;
 		};
-		A244976EDACEB8151EF24586C911FB2F /* Debug */ = {
+		A5DAF8AE9890AB98A00EDCAAE504C992 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5FCA7D3465798C847AB4B5EA173970EF /* Pods-Atareque.debug.xcconfig */;
+			baseConfigurationReference = FE1C107397E22EA5194749D7125DA556 /* Pods-Atareque.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -901,128 +1028,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		DA2D43AB5060197AEA5C1286C6A01839 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D4430079BEFD6C7AD97D69B2310E7986 /* Pods-AtarequeTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-AtarequeTests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AtarequeTests/Pods-AtarequeTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		E16A3E29DF22574064E4CFCE1BB18173 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A51C7CBDA95E0FCB4DBA3A4CCF903C36 /* XLPagerTabStrip.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/XLPagerTabStrip";
-				INFOPLIST_FILE = "Target Support Files/XLPagerTabStrip/ResourceBundle-XLPagerTabStrip-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = XLPagerTabStrip;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		ECFBD94E0FDEA397C0C293E4F1E66204 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 11F7BD6D1443F8B707787BCD061239AC /* Pods-AtarequeTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-AtarequeTests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AtarequeTests/Pods-AtarequeTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		F094171468CAB0D293D055076AC6B074 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8DB34874548A9B09AB0644A7A9375DBA /* Pods-AtarequeUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-AtarequeUITests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AtarequeUITests/Pods-AtarequeUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1042,47 +1048,47 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3CCF929F194541F829E55335E9737B03 /* Build configuration list for PBXNativeTarget "Pods-AtarequeUITests" */ = {
+		A753B48E2768D63F0580C3A04C084D85 /* Build configuration list for PBXNativeTarget "Pods-Atareque-AtarequeTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				65052FE794A8A62BA1FAC41F1B4C21BF /* Debug */,
-				F094171468CAB0D293D055076AC6B074 /* Release */,
+				4A7E8B65FC9ECAEE4897AF7DD3D17DD6 /* Debug */,
+				803AFB8C9C3DF3B102DB15CD74E4A15A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8DEFDE44466237B5F23DDA58CC1BB830 /* Build configuration list for PBXNativeTarget "XLPagerTabStrip" */ = {
+		B9801C3F1F29BBCB4740BE97E33D819E /* Build configuration list for PBXNativeTarget "XLPagerTabStrip" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				33171FEFABCA570BC7461B89A1439F58 /* Debug */,
-				0DF2A2A035AC2416B5D0BF70D6916293 /* Release */,
+				4EAC210FCC436EA9E20CE1DC8C9B4098 /* Debug */,
+				3B62425E59AF0DC9AECFC79056752516 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A71BC17BBF64178E348AF507E0CD01D6 /* Build configuration list for PBXNativeTarget "Pods-Atareque" */ = {
+		CA4D22C774C2AA175C2FF399265F7E6E /* Build configuration list for PBXNativeTarget "Pods-Atareque" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A244976EDACEB8151EF24586C911FB2F /* Debug */,
-				4FF4C920F609698B0D9E2CC688B24251 /* Release */,
+				2640D7C2DD66CBABCE5DAEBBF20E4450 /* Debug */,
+				A5DAF8AE9890AB98A00EDCAAE504C992 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AA8AA38D99D5BAC2C9C2687A3E0BFB4A /* Build configuration list for PBXNativeTarget "XLPagerTabStrip-XLPagerTabStrip" */ = {
+		CB9628B9D643E34B61E455FDF8A05029 /* Build configuration list for PBXNativeTarget "XLPagerTabStrip-XLPagerTabStrip" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0C387D029F44671FA8FC3B039114CC28 /* Debug */,
-				E16A3E29DF22574064E4CFCE1BB18173 /* Release */,
+				81142BFD0F151164E76710DA159491F8 /* Debug */,
+				6D30D0CF03EE44BB3D767535BB86A3E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F195F23A0E1EA6DBF8D88AC5CAFBA91B /* Build configuration list for PBXNativeTarget "Pods-AtarequeTests" */ = {
+		E5A3F00E6AA89A7A3A1E12A17287974B /* Build configuration list for PBXNativeTarget "Pods-Atareque-AtarequeUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DA2D43AB5060197AEA5C1286C6A01839 /* Debug */,
-				ECFBD94E0FDEA397C0C293E4F1E66204 /* Release */,
+				15E763250B288CE2E4C76EE38A036BB9 /* Debug */,
+				7B0BC79FAB0679FD94A0DD718F79670A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
