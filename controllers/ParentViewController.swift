@@ -14,7 +14,8 @@ class ParentViewController: ButtonBarPagerTabStripViewController{
     let purpleInspireColor = UIColor(red:0.13, green:0.03, blue:0.25, alpha:1.0)
     
     override func viewDidLoad() {
-        settings.style.buttonBarBackgroundColor = .white
+         super.viewDidLoad()
+        settings.style.buttonBarBackgroundColor = .blue
         settings.style.buttonBarItemBackgroundColor = .white
         settings.style.selectedBarBackgroundColor = purpleInspireColor
         settings.style.buttonBarItemFont = .boldSystemFont(ofSize: 14)
@@ -30,11 +31,26 @@ class ParentViewController: ButtonBarPagerTabStripViewController{
             oldCell?.label.textColor = .black
             newCell?.label.textColor = self?.purpleInspireColor
         }
-        super.viewDidLoad()
+       
 
         // Do any additional setup after loading the view.
     }
 
+    override func viewControllers(for pagerTabStripController: PagerTabStripViewController) -> [UIViewController] {
+        let child_1 = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "Login")
+        let child_2 = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "Register")
+        return [child_1,child_2]
+    }
+    
+    @IBAction func backToHomeTapped(_ sender: Any) {
+        let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle:nil)
+        
+        let nextViewController = storyBoard.instantiateViewController(withIdentifier: "SWRevealViewController") as! SWRevealViewController
+        self.present(nextViewController, animated:true, completion:nil)
+    }
+    
+    
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

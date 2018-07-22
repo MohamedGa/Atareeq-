@@ -1,8 +1,23 @@
 PODS:
+  - Alamofire (4.7.2)
+  - JKSteppedProgressBar (0.3.0)
+  - PasswordTextField (1.1.0)
+  - SwiftyJSON (4.1.0)
   - XLPagerTabStrip (5.0.0)
 
 DEPENDENCIES:
+  - Alamofire
+  - JKSteppedProgressBar
+  - PasswordTextField
+  - SwiftyJSON
   - XLPagerTabStrip (from `https://github.com/KelvinJin/XLPagerTabStrip`, branch `swift3`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - JKSteppedProgressBar
+    - PasswordTextField
+    - SwiftyJSON
 
 EXTERNAL SOURCES:
   XLPagerTabStrip:
@@ -15,8 +30,12 @@ CHECKOUT OPTIONS:
     :git: https://github.com/KelvinJin/XLPagerTabStrip
 
 SPEC CHECKSUMS:
+  Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
+  JKSteppedProgressBar: c74bf22f355cbb42aef584e941c2abbbba0504eb
+  PasswordTextField: 35ee7f34448c3de061136cf2556a967f1a287476
+  SwiftyJSON: c29297daf073d2aa016295d5809cdd68045c39b3
   XLPagerTabStrip: 87b8b705f9a7178e76a063ffaa2d70045944a965
 
-PODFILE CHECKSUM: cbaa3443ebce3c6f88588c1353f181b27d3c4c26
+PODFILE CHECKSUM: f7c312bcc8d11c89d48ce7f3bdcc52d175d183f2
 
 COCOAPODS: 1.5.3

@@ -18,9 +18,9 @@ class GalleryViewController : UIViewController,UINavigationBarDelegate,UINavigat
 
         // Do any additional setup after loading the view.
         
-        revealViewController().rearViewRevealWidth = 200
+        revealViewController().rightViewRevealWidth = 150
         menu.target = revealViewController()
-        menu.action = #selector(SWRevealViewController.revealToggle(_:))
+        menu.action = #selector(SWRevealViewController.rightRevealToggle(_:))
         
         // setup ImageScroll
                 // mainScrollView.frame = view.frame

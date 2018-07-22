@@ -16,18 +16,23 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         if revealViewController() != nil {
             //            revealViewController().rearViewRevealWidth = 62
-            btnMenuButton.target = revealViewController()
-            btnMenuButton.action = "revealToggle:"
+          //  btnMenuButton.target = revealViewController()
+          //  btnMenuButton.action = #selector(SWRevealViewController.revealToggle(_:))
             
-//            revealViewController().rightViewRevealWidth = 150
-//            extraButton.target = revealViewController()
-//            extraButton.action = "rightRevealToggle:"
-            
+         //  revealViewController().rightViewRevealWidth = 150
+           btnMenuButton.target = revealViewController()
+           btnMenuButton.action = #selector(SWRevealViewController.rightRevealToggle(_:))
+          
       
             
             
         }
     }
+    
+    @IBAction func bookNow(_ sender: Any) {
+        
+    }
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

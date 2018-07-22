@@ -17,7 +17,7 @@ class menuViewController: UIViewController,UITableViewDelegate,UITableViewDataSo
     var iconArray:Array = [UIImage]()
     override func viewDidLoad() {
         super.viewDidLoad()
-        ManuNameArray = ["Home","Gallery","Map","Setting"]
+        ManuNameArray = ["Home","Gallery","Reservations History","Setting"]
         iconArray = [UIImage(named:"home")!,UIImage(named:"message")!,UIImage(named:"map")!,UIImage(named:"setting")!]
         
         imgProfile.layer.borderWidth = 2
@@ -72,9 +72,14 @@ class menuViewController: UIViewController,UITableViewDelegate,UITableViewDataSo
             
             revealviewcontroller.pushFrontViewController(newFrontController, animated: true)
         }
-        if cell.lblMenuname.text! == "Map"
+        if cell.lblMenuname.text! == "Reservations History"
         {
-            print("Map Tapped")
+            print("Reservations History Tapped")
+            let mainstoryboard:UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+            let newViewcontroller = mainstoryboard.instantiateViewController(withIdentifier: "HistoryVC") as! HistoryVC
+            let newFrontController = UINavigationController.init(rootViewController: newViewcontroller)
+            
+            revealviewcontroller.pushFrontViewController(newFrontController, animated: true)
         }
         if cell.lblMenuname.text! == "Setting"
         {
