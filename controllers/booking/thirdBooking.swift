@@ -11,7 +11,8 @@ import UIKit
 class thirdBooking: UIViewController,UIPickerViewDelegate,UIPickerViewDataSource, UITextFieldDelegate {
     var bleela = 5
     var dyafa = 50
-    
+    var x :Int? = 0
+    var y : Int? = 0
     var refresher : UIRefreshControl!
     var data :availableTimeBlooks?
     
@@ -83,6 +84,10 @@ class thirdBooking: UIViewController,UIPickerViewDelegate,UIPickerViewDataSource
         nextBtn.layer.cornerRadius = 11
         let price = "\(String(describing: data!.bl_price))"
         pricePerPerson.text = price
+        let blookId = data?.bl_id
+        let def = UserDefaults.standard
+        def.setValue(blookId, forKey: "block_id")
+        def.synchronize()
       //  pricePerAllPersons.text = "\(0)"
        
         
@@ -199,6 +204,7 @@ class thirdBooking: UIViewController,UIPickerViewDelegate,UIPickerViewDataSource
             pricePerPerson.text = String(c!)
             let d:Int? = f! * c!
             pricePerAllPersons.text = String(d!)
+            x = 1
         }
         else{
             let a:Int? = Int(pricePerPerson.text!)
@@ -210,7 +216,13 @@ class thirdBooking: UIViewController,UIPickerViewDelegate,UIPickerViewDataSource
             pricePerPerson.text = String(c!)
             let d:Int? = f! * c!
             pricePerAllPersons.text = String(d!)
+            x = 0
         }
+        let def = UserDefaults.standard
+        def.setValue(x, forKey: "b_belela")
+       
+        
+        def.synchronize()
     }
     @IBAction func dyafaOn(_ sender: Any) {
         if dyafaSwitch.isOn {
@@ -222,6 +234,9 @@ class thirdBooking: UIViewController,UIPickerViewDelegate,UIPickerViewDataSource
             pricePerPerson.text = String(c!)
             let d:Int? = f! * c!
             pricePerAllPersons.text = String(d!)
+            y = 1
+           
+            
         }
         else{
             let a:Int? = Int(pricePerPerson.text!)
@@ -232,13 +247,24 @@ class thirdBooking: UIViewController,UIPickerViewDelegate,UIPickerViewDataSource
             pricePerPerson.text = String(c!)
             let d:Int? = f! * c!
             pricePerAllPersons.text = String(d!)
+            y = 0
         }
+        let def = UserDefaults.standard
+        def.setValue(y, forKey: "b_deafa")
         
+        
+        def.synchronize()
     }
     @IBAction func nextPage(_ sender: Any) {
         guard let numOfGuests = textPicker.text, !numOfGuests.isEmpty else {return}
         API.checkNumOfGuests_ios(numOfGuests: numOfGuests){ (error: Error? , success : Bool) in
             if success == true {
+                let priceAll = self.pricePerAllPersons.text
+                let def = UserDefaults.standard
+                def.setValue(numOfGuests, forKey: "b_num_of_guests")
+                def.setValue(priceAll, forKey: "b_cost")
+                
+                def.synchronize()
                  self.performSegue(withIdentifier: "fourth", sender: self)
             }
             if success == false {

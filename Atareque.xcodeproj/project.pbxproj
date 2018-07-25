@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		00D28464DCB5202B6CC761FF /* Pods_Atareque.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 722F058D5D6B7667086A7F3E /* Pods_Atareque.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		960C628A20DFE64D0031D500 /* ParentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960C628920DFE64D0031D500 /* ParentViewController.swift */; };
+		960E51A121087FAB009C3498 /* fifthBooking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960E51A021087FAB009C3498 /* fifthBooking.swift */; };
+		960E51A32108A19D009C3498 /* lastBooking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960E51A22108A19D009C3498 /* lastBooking.swift */; };
 		963E3FAB20F24BE30066A61D /* firstBooking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963E3FAA20F24BE30066A61D /* firstBooking.swift */; };
 		9664D1C920FCB46100860840 /* thirdBooking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9664D1C820FCB46100860840 /* thirdBooking.swift */; };
 		9665354A2104BB9D004F5E7D /* fourthBooking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966535492104BB9D004F5E7D /* fourthBooking.swift */; };
@@ -66,6 +68,8 @@
 		722F058D5D6B7667086A7F3E /* Pods_Atareque.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Atareque.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		73386C4AE6A2283CED3FE770 /* Pods_AtarequeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AtarequeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		960C628920DFE64D0031D500 /* ParentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentViewController.swift; sourceTree = "<group>"; };
+		960E51A021087FAB009C3498 /* fifthBooking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fifthBooking.swift; sourceTree = "<group>"; };
+		960E51A22108A19D009C3498 /* lastBooking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lastBooking.swift; sourceTree = "<group>"; };
 		963E3FAA20F24BE30066A61D /* firstBooking.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = firstBooking.swift; sourceTree = "<group>"; tabWidth = 5; };
 		96503AC320DFEFDC00620E63 /* XLPagerTabStrip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = XLPagerTabStrip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9664D1C820FCB46100860840 /* thirdBooking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thirdBooking.swift; sourceTree = "<group>"; };
@@ -222,6 +226,8 @@
 				967F3C4820F4EC73003CA287 /* secondBooking.swift */,
 				9664D1C820FCB46100860840 /* thirdBooking.swift */,
 				966535492104BB9D004F5E7D /* fourthBooking.swift */,
+				960E51A021087FAB009C3498 /* fifthBooking.swift */,
+				960E51A22108A19D009C3498 /* lastBooking.swift */,
 			);
 			path = booking;
 			sourceTree = "<group>";
@@ -500,6 +506,8 @@
 				966D77BB20DA9ED4009CD0B5 /* AppDelegate.swift in Sources */,
 				969508DF20E50F7D00152FC2 /* AlertManager.swift in Sources */,
 				9666C2D320E0E7CA00F90031 /* Login.swift in Sources */,
+				960E51A121087FAB009C3498 /* fifthBooking.swift in Sources */,
+				960E51A32108A19D009C3498 /* lastBooking.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
