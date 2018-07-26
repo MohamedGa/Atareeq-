@@ -124,9 +124,7 @@ extension secondBooking: UITableViewDataSource{
         if let budgetViewController = segue.destination as? thirdBooking {
             budgetViewController.data = tito[(tableView3.indexPathForSelectedRow?.row)!]
         }
-        if let lastController = segue.destination as? lastBooking {
-            lastController.data = tito[(tableView3.indexPathForSelectedRow?.row)!]
-        }
+       
     }
 }
 

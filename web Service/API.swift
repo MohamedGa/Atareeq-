@@ -14,7 +14,7 @@ import SwiftyJSON
 class API: NSObject {
    
     class func login ( email: String, password : String, completion: @escaping (_ error : Error?, _ success: Bool)->Void) {
-        let url = "http://192.168.8.106/atareeg/public/api/loginUser"
+        let url = "http://192.168.8.101/atareeg/public/api/loginUser"
         let parameters = ["email" :  email,
                           "password": password]
         Alamofire.request(url, method: .get, parameters: parameters, encoding: URLEncoding.default, headers: nil)
@@ -44,7 +44,7 @@ class API: NSObject {
             return
         }
         
-        let url = "http://192.168.8.106/atareeg/public/api/bookingHistory"
+        let url = "http://192.168.8.101/atareeg/public/api/bookingHistory"
         let parameters = ["email" :  email]
         Alamofire.request(url, method: .get, parameters: parameters, encoding: URLEncoding.default, headers: nil)
             .validate(statusCode: 200..<900)
@@ -97,7 +97,7 @@ class API: NSObject {
                 return
         }
         print(b_date)
-        let url = "http://192.168.8.106/atareeg/public/api/checkGuestsNumber"
+        let url = "http://192.168.8.101/atareeg/public/api/checkGuestsNumber"
         let parameters = ["b_date" : b_date]
         Alamofire.request(url, method: .get, parameters: parameters, encoding: URLEncoding.default, headers: nil)
             .validate(statusCode: 200..<900)
@@ -131,7 +131,7 @@ class API: NSObject {
         }
         print(b_date)
         
-        let url = "http://192.168.8.106/atareeg/public/api/firstStepBooking"
+        let url = "http://192.168.8.101/atareeg/public/api/firstStepBooking"
         let parameters = ["b_date" :  b_date]
         Alamofire.request(url, method: .get, parameters: parameters, encoding: URLEncoding.default, headers: nil)
             .validate(statusCode: 200..<900)
@@ -181,7 +181,7 @@ class API: NSObject {
                 return
         }
         print(b_date)
-        let url = "http://192.168.8.106/atareeg/public/api/checkGuestsNumber_ios"
+        let url = "http://192.168.8.101/atareeg/public/api/checkGuestsNumber_ios"
         let parameters = ["b_date" : b_date,
             "b_num_of_guests" : numOfGuests]
         Alamofire.request(url, method: .get, parameters: parameters, encoding: URLEncoding.default, headers: nil)
@@ -210,7 +210,7 @@ class API: NSObject {
     class func terms (completion: @escaping (_ error : Error?, _ terms: [constraints])->Void) {
        
         
-        let url = "http://192.168.8.106/atareeg/public/api/secondStepBooking"
+        let url = "http://192.168.8.101/atareeg/public/api/secondStepBooking"
         
         Alamofire.request(url, method: .get, encoding: URLEncoding.default, headers: nil)
             .validate(statusCode: 200..<900)
@@ -327,7 +327,7 @@ class API: NSObject {
         print(b_phone1)
         print(b_phone2)
         
-        let url = "http://192.168.8.106/atareeg/public/api/thirdStepBooking"
+        let url = "http://192.168.8.101/atareeg/public/api/thirdStepBooking"
         let parameters = ["b_date" :  b_date,
                           "email" :  email,
                           "b_payment_way" :  b_payment_way,
@@ -339,7 +339,7 @@ class API: NSObject {
                           "b_name" :  b_name,
                           "b_phone1" : b_phone1,
                           "b_phone2" :  b_phone2
-                          ]
+            ] as [String : Any]
         Alamofire.request(url, method: .get, parameters: parameters, encoding: URLEncoding.default, headers: nil)
             .validate(statusCode: 200..<900)
             .responseJSON { responce in

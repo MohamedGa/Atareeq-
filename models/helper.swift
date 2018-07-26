@@ -35,19 +35,19 @@ class helper: NSObject {
         return def.object(forKey: "b_num_of_guests") as? String
         
     }
-    class func getBleela() -> String? {
+    class func getBleela() -> Int? {
         let def = UserDefaults.standard
-        return def.object(forKey: "b_belela") as? String
+        return def.object(forKey: "b_belela") as? Int
         
     }
-    class func getDyafa() -> String? {
+    class func getDyafa() -> Int? {
         let def = UserDefaults.standard
-        return def.object(forKey: "b_deafa") as? String
+        return def.object(forKey: "b_deafa") as? Int
         
     }
-    class func getBlockID() -> String? {
+    class func getBlockID() -> Int? {
         let def = UserDefaults.standard
-        return def.object(forKey: "block_id") as? String
+        return def.object(forKey: "block_id") as? Int
         
     }
     class func getCost() -> String? {
@@ -68,6 +68,21 @@ class helper: NSObject {
     class func getPhone2() -> String? {
         let def = UserDefaults.standard
         return def.object(forKey: "b_phone2") as? String
+        
+    }
+    class func getBL_name() -> String? {
+        let def = UserDefaults.standard
+        return def.object(forKey: "bl_name") as? String
+        
+    }
+    class func getstarted_at() -> String? {
+        let def = UserDefaults.standard
+        return def.object(forKey: "started_at") as? String
+        
+    }
+    class func getended_at() -> String? {
+        let def = UserDefaults.standard
+        return def.object(forKey: "ended") as? String
         
     }
 

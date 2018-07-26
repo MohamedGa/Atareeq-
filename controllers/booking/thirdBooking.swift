@@ -85,9 +85,7 @@ class thirdBooking: UIViewController,UIPickerViewDelegate,UIPickerViewDataSource
         let price = "\(String(describing: data!.bl_price))"
         pricePerPerson.text = price
         let blookId = data?.bl_id
-        let def = UserDefaults.standard
-        def.setValue(blookId, forKey: "block_id")
-        def.synchronize()
+        
       //  pricePerAllPersons.text = "\(0)"
        
         
@@ -218,11 +216,7 @@ class thirdBooking: UIViewController,UIPickerViewDelegate,UIPickerViewDataSource
             pricePerAllPersons.text = String(d!)
             x = 0
         }
-        let def = UserDefaults.standard
-        def.setValue(x, forKey: "b_belela")
-       
         
-        def.synchronize()
     }
     @IBAction func dyafaOn(_ sender: Any) {
         if dyafaSwitch.isOn {
@@ -249,21 +243,29 @@ class thirdBooking: UIViewController,UIPickerViewDelegate,UIPickerViewDataSource
             pricePerAllPersons.text = String(d!)
             y = 0
         }
-        let def = UserDefaults.standard
-        def.setValue(y, forKey: "b_deafa")
-        
-        
-        def.synchronize()
+       
     }
     @IBAction func nextPage(_ sender: Any) {
         guard let numOfGuests = textPicker.text, !numOfGuests.isEmpty else {return}
         API.checkNumOfGuests_ios(numOfGuests: numOfGuests){ (error: Error? , success : Bool) in
             if success == true {
                 let priceAll = self.pricePerAllPersons.text
+                let flag = self.x
+                let yflag = self.y
+                let blookId = self.data?.bl_id
+                let mm = self.data
+                let bl_name = self.data?.bl_name
+                let started_at = self.data?.bl_started_at
+                let ended = self.data?.bl_ended_at
                 let def = UserDefaults.standard
                 def.setValue(numOfGuests, forKey: "b_num_of_guests")
                 def.setValue(priceAll, forKey: "b_cost")
-                
+                def.set(flag, forKey: "b_belela")
+                def.set(yflag, forKey: "b_deafa")
+                def.set(blookId, forKey: "block_id")
+                def.set(bl_name, forKey: "bl_name")
+                def.set(started_at, forKey: "started_at")
+                def.set(ended, forKey: "ended")
                 def.synchronize()
                  self.performSegue(withIdentifier: "fourth", sender: self)
             }
