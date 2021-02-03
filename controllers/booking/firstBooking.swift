@@ -11,6 +11,7 @@ import UIKit
 
 class firstBooking: UIViewController {
   
+    @IBOutlet weak var nextPageBtn: UIButton!
     @IBOutlet weak var dateTextField: UITextField!
     // setup date Piker
     
@@ -59,12 +60,12 @@ class firstBooking: UIViewController {
     }
     override func viewDidLoad() {
         super.viewDidLoad()
+        nextPageBtn.backgroundColor = UIColor(red:0.81, green:0.21, blue:0.10, alpha:1.0)
+        nextPageBtn.layer.cornerRadius = 11
     navigationItem.hidesBackButton = true
         let backButton = UIBarButtonItem(title: "< رجوع", style: .plain, target: self, action: #selector(backTapped))
         navigationItem.rightBarButtonItem = backButton
-        //change the color of title navigation
-        let textAttributes = [NSForegroundColorAttributeName:UIColor.red]
-        navigationController?.navigationBar.titleTextAttributes = textAttributes
+        
        // tool bar of date piker
         let toolBar = UIToolbar(frame: CGRect(x: 0, y: 40, width: self.view.frame.size.width, height: self.view.frame.size.height/6))
         
@@ -100,9 +101,27 @@ class firstBooking: UIViewController {
         toolBar.setItems([todayBtn,flexSpace,textBtn,flexSpace,okBarBtn], animated: true)
         
         dateTextField.inputAccessoryView = toolBar
-
+     
         // tool bar of date piker
-        // Do any additional setup after loading the view.
+        // put icon beside title in navigation
+        var myView: UIView = UIView(frame: CGRect(0,0,90,30))
+        var title: UILabel = UILabel(frame: CGRect(0, 0, 90, 30))
+        title.text = "احجز"
+        title.textColor = UIColor.red
+        title.font = UIFont.boldSystemFont(ofSize: 15.0)
+        title.backgroundColor = UIColor.clear
+        var image: UIImage = UIImage(named: "calendar")!
+        var myImageView: UIImageView = UIImageView(image: image)
+        myImageView.frame = CGRect(40, 0, 30, 30)
+        myImageView.layer.cornerRadius = 5.0
+        myImageView.layer.masksToBounds = true
+        myImageView.layer.borderColor = UIColor.lightGray.cgColor
+        myImageView.layer.borderWidth = 0.1
+        myView.addSubview(myImageView)
+        myView.backgroundColor = UIColor.clear
+        myView.addSubview(title)
+        
+        self.navigationItem.titleView = myView
         
         
     }
@@ -144,5 +163,11 @@ extension UIViewController
     @objc func dismissKeyboard()
     {
         view.endEditing(true)
+    }
+    
+}
+extension CGRect {
+    init(_ x:CGFloat, _ y:CGFloat, _ w:CGFloat, _ h:CGFloat) {
+        self.init(x:x, y:y, width:w, height:h)
     }
 }

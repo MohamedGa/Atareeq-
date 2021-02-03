@@ -64,6 +64,12 @@ class lastBooking: UIViewController {
 
         // Do any additional setup after loading the view.
         bigView.backgroundColor = UIColor(red:0.27, green:0.80, blue:0.46, alpha:1.0)
+        navigationItem.hidesBackButton = true
+        let backButton = UIBarButtonItem(title: "< رجوع", style: .plain, target: self, action: #selector(backTapped))
+        navigationItem.rightBarButtonItem = backButton
+    }
+    func backTapped(sender: AnyObject) {
+        self.navigationController?.popToRootViewController(animated: true)
     }
     @objc private func handleRefresh() {
         API.getLastBooking{ (error: Error?, blooks:[id]?) in

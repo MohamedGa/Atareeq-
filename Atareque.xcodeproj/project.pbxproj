@@ -368,7 +368,7 @@
 					B222F1E31DAA30320089573D = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 5V8T3L6X7Y;
-						LastSwiftMigration = 0800;
+						LastSwiftMigration = 0930;
 						ProvisioningStyle = Automatic;
 					};
 					B222F1F71DAA30330089573D = {
@@ -668,7 +668,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Atareque/Atareque-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -684,7 +685,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Com.codelabs.atareque.Atareque;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Atareque/Atareque-Bridging-Header.h";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};

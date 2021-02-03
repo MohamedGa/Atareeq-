@@ -11,11 +11,13 @@ import Foundation
 import QuartzCore
 
 class secondBooking: UIViewController {
-  var selectedRowIndex = -1
+    @IBOutlet weak var aboveLbl: UILabel!
+    var selectedRowIndex = -1
    var tito = [availableTimeBlooks]()
     var refresher : UIRefreshControl!
     @IBOutlet weak var tableView3: UITableView!
-    func backTapped(sender: AnyObject) {
+  
+    @objc func backTapped(sender: AnyObject) {
         // bact to last View Controller
         self.navigationController?.popViewController(animated: true)
     }
@@ -25,7 +27,7 @@ class secondBooking: UIViewController {
 //    }
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.tableView3.addShadow(cornerRadius: 5, shadowRadius: 2, shadowColor: UIColor.black, opacity: 0.5)
+        tableView3.layer.cornerRadius = 15
         self.tableView3.backgroundColor = UIColor(red:0.81, green:0.21, blue:0.10, alpha:1.0)
         handleRefresh()
         tableView3.dataSource = self
@@ -35,8 +37,11 @@ class secondBooking: UIViewController {
         // creat new back button in right side
         let backButton = UIBarButtonItem(title: "< رجوع", style: .plain, target: self, action: #selector(backTapped))
         navigationItem.rightBarButtonItem = backButton
-        let textAttributes = [NSForegroundColorAttributeName:UIColor.red]
+        let textAttributes = [NSAttributedStringKey.foregroundColor:UIColor.red]
         navigationController?.navigationBar.titleTextAttributes = textAttributes
+        aboveLbl.backgroundColor = UIColor(red:0.81, green:0.21, blue:0.10, alpha:1.0)
+      
+        
         
         // Do any additional setup after loading the view.
       
@@ -46,6 +51,25 @@ class secondBooking: UIViewController {
         refresher.attributedTitle = NSAttributedString(string: "loading")
         refresher.addTarget(self, action: #selector (secondBooking.handleRefresh), for: UIControlEvents.valueChanged)
         tableView3.addSubview(refresher)
+        // put icon beside title in navigation
+        let myView: UIView = UIView(frame: CGRect(0,0,120,30))
+        let title: UILabel = UILabel(frame: CGRect(0, 0, 120, 30))
+        title.text = "حجز الفترة"
+        title.textColor = UIColor.red
+        title.font = UIFont.boldSystemFont(ofSize: 15.0)
+        title.backgroundColor = UIColor.clear
+        let image: UIImage = UIImage(named: "clock")!
+        let myImageView: UIImageView = UIImageView(image: image)
+        myImageView.frame = CGRect(75, 0, 30, 30)
+        myImageView.layer.cornerRadius = 5.0
+        myImageView.layer.masksToBounds = true
+        myImageView.layer.borderColor = UIColor.lightGray.cgColor
+        myImageView.layer.borderWidth = 0.1
+        myView.addSubview(myImageView)
+        myView.backgroundColor = UIColor.clear
+        myView.addSubview(title)
+        
+        self.navigationItem.titleView = myView
     }
     @objc private func handleRefresh() {
         API.getAvailableTimeBlooks{ (error: Error?, blooks:[availableTimeBlooks]?) in

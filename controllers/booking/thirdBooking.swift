@@ -47,7 +47,7 @@ class thirdBooking: UIViewController,UIPickerViewDelegate,UIPickerViewDataSource
         let backButton = UIBarButtonItem(title: "< رجوع", style: .plain, target: self, action: #selector(backTapped))
         navigationItem.rightBarButtonItem = backButton
         //change the color of title navigation
-        let textAttributes = [NSForegroundColorAttributeName:UIColor.red]
+        let textAttributes = [NSAttributedStringKey.foregroundColor:UIColor.red]
         navigationController?.navigationBar.titleTextAttributes = textAttributes
         handleRefresh()
        dropdown.delegate = self
@@ -56,6 +56,25 @@ class thirdBooking: UIViewController,UIPickerViewDelegate,UIPickerViewDataSource
       dropdown.isHidden = true
         bleelaSwitch.isOn = false
         dyafaSwitch.isOn = false
+        // put icon beside title in navigation
+        var myView: UIView = UIView(frame: CGRect(0,0,120,30))
+        var title: UILabel = UILabel(frame: CGRect(0, 0, 120, 30))
+        title.text = "اختيار الحجز"
+        title.textColor = UIColor.red
+        title.font = UIFont.boldSystemFont(ofSize: 15.0)
+        title.backgroundColor = UIColor.clear
+        var image: UIImage = UIImage(named: "res")!
+        var myImageView: UIImageView = UIImageView(image: image)
+        myImageView.frame = CGRect(75, 0, 30, 30)
+        myImageView.layer.cornerRadius = 5.0
+        myImageView.layer.masksToBounds = true
+        myImageView.layer.borderColor = UIColor.lightGray.cgColor
+        myImageView.layer.borderWidth = 0.1
+        myView.addSubview(myImageView)
+        myView.backgroundColor = UIColor.clear
+        myView.addSubview(title)
+        
+        self.navigationItem.titleView = myView
       
         // setup refresher
         
@@ -95,7 +114,7 @@ class thirdBooking: UIViewController,UIPickerViewDelegate,UIPickerViewDataSource
         textPicker.addTarget(self, action: #selector(textFieldDidChange(_:)), for: .editingDidEnd)
     }
     
-    func textFieldDidChange(_ textField: UITextField) {
+    @objc func textFieldDidChange(_ textField: UITextField) {
             let a:Int? = Int(textPicker.text!)
             let b:Int? = Int(pricePerPerson.text!)
         if  a != nil{
@@ -109,7 +128,7 @@ class thirdBooking: UIViewController,UIPickerViewDelegate,UIPickerViewDataSource
 
     
     
-    func backTapped(sender: AnyObject) {
+    @objc func backTapped(sender: AnyObject) {
         // bact to last View Controller
         self.navigationController?.popViewController(animated: true)
     }

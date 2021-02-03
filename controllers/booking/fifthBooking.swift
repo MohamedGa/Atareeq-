@@ -25,7 +25,7 @@ class fifthBooking: UIViewController , UIPickerViewDelegate , UIPickerViewDataSo
         let backButton = UIBarButtonItem(title: "< رجوع", style: .plain, target: self, action: #selector(backTapped))
         navigationItem.rightBarButtonItem = backButton
         //change the color of title navigation
-        let textAttributes = [NSForegroundColorAttributeName:UIColor.red]
+        let textAttributes = [NSAttributedStringKey.foregroundColor:UIColor.red]
         navigationController?.navigationBar.titleTextAttributes = textAttributes
         pickerView.delegate = self
         pickerView.dataSource = self
@@ -46,8 +46,27 @@ class fifthBooking: UIViewController , UIPickerViewDelegate , UIPickerViewDataSo
         
 
         // Do any additional setup after loading the view.
+        // put icon beside title in navigation
+        var myView: UIView = UIView(frame: CGRect(0,0,120,30))
+        var title: UILabel = UILabel(frame: CGRect(0, 0, 120, 30))
+        title.text = "البيانات والدفع"
+        title.textColor = UIColor.red
+        title.font = UIFont.boldSystemFont(ofSize: 15.0)
+        title.backgroundColor = UIColor.clear
+        var image: UIImage = UIImage(named: "creditcard")!
+        var myImageView: UIImageView = UIImageView(image: image)
+        myImageView.frame = CGRect(100, 0, 30, 30)
+        myImageView.layer.cornerRadius = 5.0
+        myImageView.layer.masksToBounds = true
+        myImageView.layer.borderColor = UIColor.lightGray.cgColor
+        myImageView.layer.borderWidth = 0.1
+        myView.addSubview(myImageView)
+        myView.backgroundColor = UIColor.clear
+        myView.addSubview(title)
+        
+        self.navigationItem.titleView = myView
     }
-    func backTapped(sender: AnyObject) {
+    @objc func backTapped(sender: AnyObject) {
         // bact to last View Controller
         self.navigationController?.popViewController(animated: true)
     }

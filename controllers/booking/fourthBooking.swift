@@ -23,7 +23,7 @@ class fourthBooking: UIViewController, UITableViewDataSource {
         // creat new back button in right side
         let backButton = UIBarButtonItem(title: "< رجوع", style: .plain, target: self, action: #selector(backTapped))
         navigationItem.rightBarButtonItem = backButton
-        let textAttributes = [NSForegroundColorAttributeName:UIColor.red]
+        let textAttributes = [NSAttributedStringKey.foregroundColor:UIColor.red]
         navigationController?.navigationBar.titleTextAttributes = textAttributes
        tableList.dataSource = self
         // Do any additional setup after loading the view.
@@ -38,8 +38,27 @@ class fourthBooking: UIViewController, UITableViewDataSource {
         nextBtnView.backgroundColor = UIColor(red:0.81, green:0.21, blue:0.10, alpha:1.0)
         nextBrn.backgroundColor = UIColor.white
         nextBrn.layer.cornerRadius = 11
+        // put icon beside title in navigation
+        var myView: UIView = UIView(frame: CGRect(0,0,120,30))
+        var title: UILabel = UILabel(frame: CGRect(0, 0,120, 30))
+        title.text = "الشروط والأحكام"
+        title.textColor = UIColor.red
+        title.font = UIFont.boldSystemFont(ofSize: 15.0)
+        title.backgroundColor = UIColor.clear
+        var image: UIImage = UIImage(named: "list")!
+        var myImageView: UIImageView = UIImageView(image: image)
+        myImageView.frame = CGRect(103, 0, 30, 30)
+        myImageView.layer.cornerRadius = 5.0
+        myImageView.layer.masksToBounds = true
+        myImageView.layer.borderColor = UIColor.lightGray.cgColor
+        myImageView.layer.borderWidth = 0.1
+        myView.addSubview(myImageView)
+        myView.backgroundColor = UIColor.clear
+        myView.addSubview(title)
+        
+        self.navigationItem.titleView = myView
     }
-    func backTapped(sender: AnyObject) {
+    @objc func backTapped(sender: AnyObject) {
         // bact to last View Controller
         self.navigationController?.popViewController(animated: true)
     }

@@ -28,7 +28,9 @@ class secondBookingCell: UITableViewCell {
                                    shadowRadius: 2,
                                    shadowColor: UIColor.black,
                                    opacity: 0.5)
-        self.timeView.addShadow(cornerRadius: 5, shadowRadius: 2, shadowColor: UIColor.black, opacity: 0.5)
+        self.containerView.backgroundColor = UIColor(red:0.81, green:0.21, blue:0.10, alpha:1.0)
+      self.timeView.layer.cornerRadius = 16
+        nextLabel.layer.cornerRadius = 16
        // self.nextLabel.addShadow(cornerRadius: 3, shadowRadius: 1, shadowColor: UIColor.black, opacity: 0.5)
     }
 
